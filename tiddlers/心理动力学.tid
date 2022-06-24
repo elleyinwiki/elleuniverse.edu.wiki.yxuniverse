@@ -1,17 +1,17 @@
 created: 20220421120119140
 creator: edu
-difficulty: 5
-due: 20220423121048572
-grade: -1
-history: []
-interval: 0
-lapses: 0
-modified: 20220421121048572
+difficulty: 5.234336838202926
+due: 20220625123556902
+grade: 0
+history: [{"due":"20220423121048572","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20220421121048572"}]
+interval: 64
+lapses: 1
+modified: 20220624123556902
 modifier: edu
 reps: 1
-retrievability: 1
-review: 20220421121048572
-stability: 2
+retrievability: 0.03433683820292514
+review: 20220624123556902
+stability: 1.4816364413634358
 stream-list: 心理动力学/20220421120135017 心理动力学/20220421120139605 心理动力学/20220421120146550 心理动力学/20220421120158338 心理动力学/20220421120204331 心理动力学/20220421120213380
 stream-type: default
 tags: anki ?

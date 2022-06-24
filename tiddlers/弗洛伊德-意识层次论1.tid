@@ -1,10 +1,20 @@
-created: 20220624123848723
+created: 20220418115947452
 creator: edu
-modified: 20220624123859894
+difficulty: 5.0538149682454625
+due: 20220428121005844
+grade: 1
+history: [{"due":"20220428121005844","interval":"3","difficulty":5.0538149682454625,"stability":7.290234566162131,"retrievability":0.8538149682454624,"grade":"1","lapses":0,"reps":2,"review":"20220421121005844"}]
+interval: 3
+lapses: 0
+modified: 20220624123845494
 modifier: edu
-tags: 
-title: 弗洛伊德-意识层次论
-tmap.id: 63dab41b-5018-4aec-bdfb-b0528eb29e14
+reps: 2
+retrievability: 0.8538149682454624
+review: 20220421121005844
+stability: 7.290234566162131
+tags: anki
+title: 弗洛伊德-意识层次论1
+tmap.id: 9803b4b4-290a-4235-a1ac-c8340949c411
 type: text/vnd.tiddlywiki
 
 ''二、意识层次论''<br>
