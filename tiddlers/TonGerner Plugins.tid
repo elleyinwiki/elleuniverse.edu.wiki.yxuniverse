@@ -1,0 +1,30 @@
+caption: TonGerner Plugins
+created: 20210620010411559
+linkstyle: color:chocolate;
+modified: 20210621040234469
+tags: [[Community Plugins]] [[Plugin Card]]
+title: TonGerner Plugins
+tmap.id: 8c2e2972-0060-4e16-95da-751dd45fb801
+type: text/vnd.tiddlywiki
+url: http://tongerner.tiddlyspot.com/
+
+来自 TonGerner 的插件。
+
+# {{!!url}}
+# http://tw5custom.tiddlyspot.com/
+
+此处安装的都是编辑器工具栏按钮：
+
+* $:/plugins/tg/chars-button
+* $:/plugins/tg/list-bullet2-button
+* $:/plugins/tg/newline-button
+* $:/plugins/tg/note-button
+* $:/plugins/tg/prettylink-button
+* $:/plugins/tg/timestamp-button
+
+未安装插件：
+
+* $:/plugins/tg/iframe-button
+* $:/plugins/tg/layout
+* $:/plugins/tg/topleftmenu
+* ~~Go to bottom in edit mode~~

@@ -1,0 +1,8 @@
+caption: 法学
+ctag: Law
+tags: courses-category
+title: courses-category-law
+tmap.id: 28f44fd6-e9ff-4bef-a40e-2f83620095e3
+type: text/vnd.tiddlywiki
+
+<<list-courses Law>>

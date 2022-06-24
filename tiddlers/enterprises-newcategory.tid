@@ -1,0 +1,25 @@
+caption: {{$:/core/images/new-button}}
+tags: enterprises-category
+title: enterprises-newcategory
+tmap.id: 61e9673e-40b8-41b4-ab01-0de802f60a27
+type: text/vnd.tiddlywiki
+
+! 新建分类
+
+|<$link to="$:/config/new-enterprisecategory/Title">Title</$link> |<$edit-text tiddler="$:/config/new-enterprisecategory/Title" default="" tag="input"/> |
+|<$link to="$:/config/new-enterprisecategory/Caption">Caption</$link> |<$edit-text tiddler="$:/config/new-enterprisecategory/Caption" default="" tag="input"/> |
+|<$link to="$:/config/new-enterprisecategory/Text">Text</$link> |<$edit tiddler="$:/config/new-enterprisecategory/Text" tag="textarea" class="tc-edit-texteditor" default=""/> |
+|>| {{$:/xp/ui/Buttons/listing-enterprises/newcategory}} |
+
+<small>
+<i class="tc-muted">
+
+操作说明：
+
+# 设置标题后缀
+# 设置显示名称
+# 修改内容中 `CTag` 为标记该分类的标签
+# 点击按钮新建
+
+</i>
+</small>

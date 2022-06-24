@@ -1,0 +1,69 @@
+created: 20190209181144346
+creator: Mohammad
+modified: 20190210105437518
+modifier: Mohammad
+tags: 
+title: Semantic Colors
+tmap.id: 09ad31ca-d6c7-4897-9275-2792d1fbe57f
+type: text/vnd.tiddlywiki
+
+<<dbadge Tiddlywiki 5.1.17+ type:info>> <<dbadge License MIT type:success>> <<dbadge Release 2.0 type:warning>> 
+
+! What is "semantic colors"?
+<<<
+Semantic colors are set of CSS to apply colorful theme to individual tiddlers for categorization purpose.
+
+{{Use Case}}
+<<<
+
+! Mechanism
+<<<
+The mechanism used here is based on [[custom styles by data tags|https://tiddlywiki.com/prerelease/#Custom%20styles%20by%20data-tags]]. The styles for //specified tags// defined in tiddlers tagged themselves with `$:/tags/Stylesheet`. Each tiddler is tagged with such those //specified tags// will get the customization.
+<<<
+
+! Contents
+<<<
+This wiki contains four groups of semantic colors:
+
+<<list-links "[tag[Contents]] -[[Using as Class Field]]" type:ol>>
+
+You can use any approach you like. They colorize partially the left side of tiddlers. The border colors group only apply colors to left border.
+<<<
+
+! Demo
+<<<
+For demonstration, from sidebar, open ''Contents'' tab and click on each group you like. You can then open sample cases and see how they look like.
+<<<
+
+!! Customization
+<<<
+You can edit the stylesheets (see the installation below) and changes the tags name to meet your requirements. For example concepts, basics, developers, ...
+<<<
+
+! Installation
+<<<
+To install each set, simply drag and drop the stylesheet tiddler into your wiki
+
+* Border colors: [[stylesheet/semantic/tags-border-colors]]
+* Dark colors: [[stylesheet/semantic/tags-darkcolors]]
+* Light colors: [[stylesheet/semantic/tags-lightcolors]]
+* Low tone background colors: [[stylesheet/semantic/tags-bglowtone-colors]]
+* High tone background colors: [[stylesheet/semantic/tags-bghightone-colors]]
+
+To use the new colorized tags, simply add the one you like to your tiddler. For example a tiddler tagged with `zolive` will get the olive theme.
+
+To see the colorized tags, open each stylesheet above. The tag is the one comes after `data-tags~=`. 
+<<<
+
+<<alert info "''Note:'' These css are developed based on light themes of Tiddlywiki. Using them with dark theme needs some minor adjustments.">>
+
+
+! More information
+<<<
+* References: [[Links]]
+* License: [[MIT License|$:/plugins/.mr/semantic-color/license]]
+* Author: [[Mohammad Rahmani|https://github.com/kookma]]
+<<<
+
+
+{{change-log}}

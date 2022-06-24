@@ -1,0 +1,6 @@
+tags: 模板
+title: 大树模板
+tmap.id: 76165f9f-eed0-4a0c-85a6-770d8acce07c
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[脑]]" "About XP" "$:/state/tab/beginner" "tc-vertical">>

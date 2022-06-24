@@ -1,0 +1,7 @@
+created: 20220413083105273
+creator: edu
+list: $:/core/ui/Buttons/delete $:/plugins/kookma/trashbin/ui/toolbar-button $:/core/ui/Buttons/save $:/plugins/telmiger/EditButtons/Buttons/save-open $:/core/ui/Buttons/cancel $:/_sq/Stories/divertTiddlerEditMacro $:/plugins/telmiger/EditButtons/Buttons/cancel-and-close $:/plugins/telmiger/EditButtons/Buttons/save-and-close
+modified: 20220413084458245
+modifier: edu
+title: $:/tags/EditToolbar
+type: text/vnd.tiddlywiki

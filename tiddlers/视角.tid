@@ -1,0 +1,8 @@
+color: #36f24c
+icon: view-fill.svg
+tags: psy
+title: 视角
+tmap.id: 065a0646-9e0e-451a-ad7c-0199cf9bd531
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[视角]]" "About XP" "$:/state/tab/beginner" "tc-vertical">>

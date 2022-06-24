@@ -1,0 +1,27 @@
+caption: TimerActions
+created: 20210620032914526
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210621031123831
+tags: [[Community Plugins]] [[Plugin Card]]
+title: TimerActions by OokTech
+tmap.id: 14fea916-529f-4d8f-8b1c-e8530de21326
+type: text/vnd.tiddlywiki
+url: https://ooktech.com/TiddlyWiki/TimerActions/
+
+{{!!url}}
+
+!! What does it do?
+
+You create scripts made up of action widgets and then the plugin runs the
+scripts at specific times.
+
+Options include:
+
+* Periodic (Run every n minutes/seconds/hours/days)
+* Run once after some interval (run once after 10 minutes have passed)
+
+You can open the `Manage Timers` tab in $:/plugins/OokTech/TimerActions to
+start, stop or edit existing timers and the `New Timer` tab to create new
+timers.
+
+* $:/plugins/OokTech/TimerActions

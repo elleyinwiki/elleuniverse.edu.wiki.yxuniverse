@@ -1,0 +1,8 @@
+caption: 表格视图
+title: HOWTOS TABLE VIEW
+tmap.id: 42fb03be-6d39-4844-ad25-9da1e08ecbdd
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/howtos/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[Howto]search{$:/temp/howtos/dtable/search}]" fields="tbl-expand title importance created tags" class="w-100" stateTiddler="howtos"/>

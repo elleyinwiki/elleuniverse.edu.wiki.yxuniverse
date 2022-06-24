@@ -1,0 +1,27 @@
+created: 20190209161228726
+creator: Mohammad
+modified: 20190210095458487
+modifier: Mohammad
+tags: Contents
+title: Gradient Dark Colors
+tmap.id: 87934e9c-b33f-4a21-83ef-dba990b38505
+type: text/vnd.tiddlywiki
+
+!! Semantic dark colors
+These are five dark colors.
+
+
+#<<colorize "''Yale''" zyale>>
+#<<colorize "''Maroon''" zmaroon>>
+#<<colorize "''Olive''" zolive>>
+#<<colorize "''Clay''" zclay>>
+#<<colorize "''Iron''" ziron>>
+
+!! How to use
+Simply add one of the above colorized tags (//zyale//, //zmaroon//, //zolive//, //zclay//, //ziron//) to your tiddler and save it. For example if you a wish to categorize a tiddler in Yale category, add tag `zyale`to it.
+
+
+!! Demo
+Click on the below button to close all tiddlers and open sample tiddlers colorized with semantic dark colors.
+
+<<open-all filter:"[tag[demo]] +[search:title[dark gradient]]" label:"Open dark color examples">>

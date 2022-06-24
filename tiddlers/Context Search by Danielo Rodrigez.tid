@@ -1,0 +1,14 @@
+caption: Context Search
+created: 20210619133856384
+modified: 20210621030226195
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Context Search by Danielo Rodrigez
+tmap.id: 03c920a3-ad86-4cf2-b239-5bf94e688c8c
+type: text/vnd.tiddlywiki
+url: https://github.com/danielo515/TW5-contextPlugin
+
+{{!!url}}
+
+provides visual highlight of search results.
+
+* $:/plugins/danielo515/ContextPlugin

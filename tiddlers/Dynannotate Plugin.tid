@@ -1,0 +1,23 @@
+caption: Dynannotate
+created: 20210620014925199
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210620041721787
+tags: [[Plugin Card]] OfficialPlugins
+title: Dynannotate Plugin
+tmap.id: 9e148f09-a4d1-482b-9506-fa00902880eb
+type: text/vnd.tiddlywiki
+url: 
+
+{{!!url}}
+
+The ''Dynannotate'' plugin allows annotations on textual content to be created and displayed. It has three components:
+
+* The dynannotate widget overlays clickable textual annotations, search highlights and search snippets on the content that it contains
+* The selection tracker displays a popup that tracks the selection, and keeps track of the selected text. It also tracks a prefix and suffix that can be used to disambiguate the selected text within the container
+* The `<$action-popup>` widget is used for some specialised popup switching in the demo
+
+''Note that the TiddlyWiki core plugin __Dynaview__ is required for correct operation of __Dynannotate__''
+
+
+* $:/plugins/tiddlywiki/dynannotate
+* $:/plugins/tiddlywiki/dynaview

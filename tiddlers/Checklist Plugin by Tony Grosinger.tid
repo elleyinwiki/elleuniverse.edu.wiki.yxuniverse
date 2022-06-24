@@ -1,0 +1,14 @@
+caption: Checklist
+created: 20210619143927880
+modified: 20210620041515533
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Checklist Plugin by Tony Grosinger
+tmap.id: 6c958035-c0b9-4955-817e-64e5015a7681
+type: text/vnd.tiddlywiki
+url: https://github.com/tgrosinger/tw5-checklist
+
+{{!!url}}
+
+This plugin provides a simple checklist which does not create a new tiddler for each task. 
+
+* $:/plugins/tgrosinger/tw5-checklist

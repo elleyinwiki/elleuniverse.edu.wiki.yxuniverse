@@ -1,0 +1,25 @@
+caption: {{$:/core/images/new-button}}
+tags: whys-category
+title: whys-newcategory
+tmap.id: 02484c2d-e966-4b6f-ad85-d078ca2fcadf
+type: text/vnd.tiddlywiki
+
+! 新建分类
+
+|<$link to="$:/config/new-whycategory/Title">Title</$link> |<$edit-text tiddler="$:/config/new-whycategory/Title" default="" tag="input"/> |
+|<$link to="$:/config/new-whycategory/Caption">Caption</$link> |<$edit-text tiddler="$:/config/new-whycategory/Caption" default="" tag="input"/> |
+|<$link to="$:/config/new-whycategory/Text">Text</$link> |<$edit tiddler="$:/config/new-whycategory/Text" tag="textarea" class="tc-edit-texteditor" default=""/> |
+|>| {{$:/xp/ui/Buttons/listing-whys/newcategory}} |
+
+<small>
+<i class="tc-muted">
+
+操作说明：
+
+# 设置标题后缀
+# 设置显示名称
+# 修改内容中 `CTag` 为标记该分类的标签
+# 点击按钮新建
+
+</i>
+</small>

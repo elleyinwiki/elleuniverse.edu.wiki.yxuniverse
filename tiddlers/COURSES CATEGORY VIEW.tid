@@ -1,0 +1,11 @@
+caption: 分类视图
+title: COURSES CATEGORY VIEW
+tmap.id: 73970ee1-8fc3-4ddf-936e-712e11670ccf
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="tabs"
+	tabsList="[all[shadows+tiddlers]tag[courses-category]!tag[hide]!has[draft.of]]"
+	default="courses-category-ongoing"
+	class="tc-vertical"
+	/>

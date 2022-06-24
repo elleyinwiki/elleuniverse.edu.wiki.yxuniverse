@@ -1,0 +1,22 @@
+caption: Contents
+created: 20190209161853445
+creator: Mohammad
+list-after: $:/core/ui/SideBar/Open
+modified: 20190210103217617
+modifier: Mohammad
+tags: $:/tags/SideBar
+title: table of contents
+tmap.id: 7a6b0c8a-86e2-4478-bdaf-66f3781ab894
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Contents">>
+</div>
+
+!!! Utilities
+<small>
+
+* [[Create and Delete Demo Tiddlers]]
+* [[change-log]]
+
+</small>

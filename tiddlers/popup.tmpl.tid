@@ -1,0 +1,18 @@
+title: popup.tmpl
+tmap.id: 7493ecb7-58f8-4c4f-85d2-f39819772a8d
+type: text/vnd.tiddlywiki
+
+<$set name="popupstate" value=<<qualify "$:/state/popup/showtid">> >
+<div style="word-break:break-all;">
+<$button popup=<<popupstate>> class="tc-btn-invisible">{{$:/xp/images/click-popup}}&nbsp;<$link to=<<currentTiddler>>><$view field="title"/></$link></$button>
+</div>
+<$reveal type="popup" state=<<popupstate>> position="below" updatePopupPosition="yes" class="tc-popup-keep" retain="yes" style="overflow-y:hidden;">
+<div class="tc-drop-down-wrapper">
+<div class="xp-popup tc-popup-keep" style="max-width:680px;overflow-y:hidden;">
+<div class="xp-popup-text">
+<$transclude mode="block"/>
+</div>
+</div>
+</div>
+</$reveal>
+</$set>

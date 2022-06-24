@@ -1,0 +1,16 @@
+color: #bbb
+icon: $:/core/images/help
+title: Courses Help
+tmap.id: 964a9fee-a71a-4768-9e20-a1ad46421154
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+COURSES 是视频课程的索引界面。原理和使用方法与 BOOKSHELF 一致，请参阅 [[Bookshelf Help]]。
+
+</span>
+
+其他说明：
+
+* 分类使用「[[学堂在线|https://www.xuetangx.com/search?query=&channel=navigation_bar]]」的学科分类；
+* 为了便于管理，课程封面图添加标签 <<tag CourseCover>>。建议图片标题中使用小写和下划线。

@@ -1,0 +1,13 @@
+caption: Highlight
+created: 20210619145742545
+modified: 20210621030456988
+tags: [[Plugin Card]] OfficialPlugins
+title: Highlight Plugin
+tmap.id: 4374f3f9-e686-46b2-ae58-691b7fcb6283
+type: text/vnd.tiddlywiki
+
+[ext[https://tiddlywiki.com/plugins/tiddlywiki/highlight|plugins/tiddlywiki/highlight]]
+
+The Highlight plugin provides the ability to apply syntax colouring to text.
+
+* $:/plugins/tiddlywiki/highlight

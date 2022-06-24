@@ -1,0 +1,8 @@
+title: 如何下载 TiddlyWiki XP 中的所有插件？
+tmap.id: bac2fe35-5679-4c1f-b5e8-7f8e379325b5
+type: text/vnd.tiddlywiki
+
+''下载所有插件''：从 [[Gitee|https://gitee.com/keatonlao/tiddlywiki-xp]] / [[GitHub|https://github.com/keatonlao/tiddlywiki-xp]] 上将 tiddlywiki-xp 仓库克隆下来。
+
+* 单文件版本所有插件 `plugins/PluginforSingleFileVersion.zip`
+* 服务器版本自定义插件库（~MyPluginStore） `version/tiddlywiki-xp_Server.zip`

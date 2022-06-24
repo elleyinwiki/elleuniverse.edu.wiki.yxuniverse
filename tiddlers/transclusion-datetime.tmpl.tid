@@ -1,0 +1,9 @@
+title: transclusion-datetime.tmpl
+tmap.id: 4e2c9673-5d40-4a38-8ac4-8e2f2ee1591a
+type: text/vnd.tiddlywiki
+
+<h2><$link to=<<currentTab>>><$view tiddler=<<currentTab>> field="title"/></$link></h2>
+
+^^<i class="tc-muted"><$view tiddler=<<currentTab>> field="modified" format="date" template="DDth MMM YYYY at 0hh:0mm">TBA</$view></i>^^
+
+<$transclude tiddler=<<currentTab>> />

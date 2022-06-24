@@ -1,0 +1,105 @@
+caption: Check
+title: plugins-check
+tmap.id: de1ba2f4-a3eb-4871-a679-7b7ee3e19941
+type: text/vnd.tiddlywiki
+
+<span class="tc-muted">罗列插件链接，用于检查是否已经安装。</span>
+
+@@.twocolumns
+
+!! Online Plugin Library
+
+* $:/config/KookmaPluginLibrary
+* $:/config/wikilabs/PluginLibraryWL/latest
+
+!! Plugins
+
+* $:/plugins/danielo515/encryptTiddler
+* $:/plugins/danielo515/ContextPlugin
+* $:/plugins/felixhayashi/tiddlymap
+** $:/plugins/felixhayashi/hotzone
+** $:/plugins/felixhayashi/topstoryview
+** $:/plugins/felixhayashi/vis
+* $:/plugins/flibbles/relink
+** $:/plugins/flibbles/relink-markdown
+** $:/plugins/flibbles/relink-titles
+* $:/plugins/ihm/tidgraph
+* $:/plugins/kookma/commander
+* $:/plugins/kookma/favorites
+* $:/plugins/kookma/pinboard
+* $:/plugins/kookma/shiraz
+* $:/plugins/kookma/todolist
+* $:/plugins/kookma/trashbin
+* $:/plugins/kookma/utility
+* $:/plugins/nico/projectify
+** $:/plugins/nico/projectify-zh-Hans
+** $:/plugins/nico/shields
+* $:/plugins/souk21/commandpalette
+* $:/plugins/sq/Stories
+* $:/plugins/telmiger/details
+* $:/plugins/telmiger/EditButtons
+* $:/plugins/telmiger/EditorCounter
+* $:/plugins/tesseract/tekan
+* $:/plugins/tg/chars-button
+* $:/plugins/tg/list-bullet2-button
+* $:/plugins/tg/newline-button
+* $:/plugins/tg/note-button
+* $:/plugins/tg/prettylink-button
+* $:/plugins/tg/timestamp-button
+* $:/plugins/tgrosinger/tw5-checklist
+* $:/plugins/TheDiveO/FontAwesome
+* $:/plugins/test/getplugins
+* $:/plugins/tiddlywiki/browser-sniff
+* $:/plugins/tiddlywiki/codemirror
+** $:/plugins/tiddlywiki/codemirror-autocomplete
+** $:/plugins/tiddlywiki/codemirror-closebrackets
+** $:/plugins/tiddlywiki/codemirror-closetag
+** $:/plugins/tiddlywiki/codemirror-mode-css
+** $:/plugins/tiddlywiki/codemirror-mode-markdown
+** $:/plugins/tiddlywiki/codemirror-mode-xml
+** $:/plugins/tiddlywiki/codemirror-search-replace
+* $:/plugins/tiddlywiki/help
+* $:/plugins/tiddlywiki/highlight
+* $:/plugins/tiddlywiki/internals
+* $:/plugins/tiddlywiki/katex
+* $:/plugins/tiddlywiki/markdown
+* $:/plugins/tobibeer/preview
+** $:/plugins/tobibeer/appear
+* $:/plugins/TWaddle/ListTree
+* $:/plugins/wikilabs/link-to-tabs
+* $:/plugins/wikilabs/multicol-dropdown
+
+//AND//
+
+* $:/xp
+** $:/xp/buttonOrder / $:/xp/buttonOrder-server
+** $:/xp/modify-default-tiddlers
+** $:/xp/PluginConfiguration
+** $:/xp/Plugins
+* $:/xp/columns
+* $:/xp/details-button
+* $:/xp/Diary
+* $:/xp/emoji-button
+* $:/xp/html-button
+* $:/xp/LeftOpenTab
+* $:/xp/magicSidebar
+* $:/xp/manageTags
+* $:/xp/mark-button
+* $:/xp/quickbar
+* $:/xp/SplashScreen
+* $:/xp/switchlayout
+* $:/xp/theme-changer
+
+!! Themes and Palettes
+
+* $:/themes/xp-j
+* $:/themes/xp-k
+* $:/palettes/jd/CoolMint
+* $:/palettes/jd/Neonize
+* $:/palettes/pimgeek
+
+!! Languages
+
+* $:/languages/zh-Hans
+
+@@

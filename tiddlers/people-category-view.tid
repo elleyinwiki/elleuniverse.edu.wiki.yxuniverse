@@ -1,0 +1,67 @@
+title: people-category-view
+tmap.id: afff455f-15cc-41e3-876f-cf5578c87ed8
+type: text/vnd.tiddlywiki
+
+\define alltagsfilter()  
+<$vars tag1="tag[" tag2="]" lb="[" rb="tag[PEOPLE]sort[delivery]]">
+<$set filter="[list[]addprefix<tag1>addsuffix<tag2>]+[join[]addprefix<lb>addsuffix<rb>]" name="alltags" select=0>
+<$text text=<<alltags>>/>
+</$set>
+</$vars>
+\end
+
+\define saverssidebaritem(item:"Chinese")
+<$checkbox tiddler=<<qualify $:/temp/$item$>> field="status" checked="selected" checkactions=<<checkactions "$item$">> uncheckactions=<<uncheckactions "$item$">> default="closed"> $item$</$checkbox><br/>
+\end
+
+\define saverssidebaritemlist(configTiddler:"$:/config/PEOPLE/nationality")
+<$list filter="[enlist{$configTiddler$}]" variable="currentItem">
+<$macrocall $name="saverssidebaritem" item=<<currentItem>>/>
+</$list>
+\end
+
+\define uncheckactions(item:"Chinese")
+<$action-listops  $subfilter="-[[$item$]]"/>
+\end
+
+\define checkactions(item:"Chinese")
+<$action-listops $subfilter="[[$item$]]"/>
+\end
+
+\define uncheckactions(item:"Chinese")
+<$action-listops $subfilter="-[[$item$]]"/>
+\end
+
+
+<div class="tc-wrapper-flex">
+<div class="tc-saving-sidebar">
+  <div class="tc-saving-sidebar-category">
+      <div class="tc-saving-sidebar-category-title">PROFESSION</div>
+        <div class="tc-saving-sidebar-category-item">
+                <<saverssidebaritemlist "$:/config/PEOPLE/profession">>
+        </div>
+      </div>
+  <div class="tc-saving-sidebar-category">
+      <div class="tc-saving-sidebar-category-title">NATIONALITY</div>
+        <div class="tc-saving-sidebar-category-item">
+              <<saverssidebaritemlist "$:/config/PEOPLE/nationality">>
+        </div>
+  </div>
+  <div class="tc-saving-sidebar-category">
+      <div class="tc-saving-sidebar-category-title">功过格</div>
+        <div class="tc-saving-sidebar-category-item">
+               <<saverssidebaritemlist "$:/config/PEOPLE/merits&faults">>
+        </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="content">
+<$wikify text=<<alltagsfilter>> name="alltagsfilterwikified">
+<$list filter=<<alltagsfilterwikified>>>
+<$transclude tiddler="$:/_software-card-template"/>
+</$list>
+</$wikify>
+
+</div>
+</div>

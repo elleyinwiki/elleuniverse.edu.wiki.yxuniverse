@@ -1,0 +1,8 @@
+caption: 表格视图
+title: COURSES TABLE VIEW
+tmap.id: 3e576873-43a8-41bf-b58b-0732aaf98e03
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/courses/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[Course]search{$:/temp/courses/dtable/search}]" fields="tbl-expand title importance created tags" class="w-100" stateTiddler="courses"/>

@@ -1,0 +1,29 @@
+created: 20190209170650953
+creator: Mohammad
+modified: 20190210095830272
+modifier: Mohammad
+tags: Contents
+title: Gradient Light Colors
+tmap.id: 93e7df9a-7447-4c56-a883-1e6479b27c3d
+type: text/vnd.tiddlywiki
+
+!! Semantic light colors
+These are eight light colors.
+
+# <<colorize Blue zblue>>
+# <<colorize Cyan zcyan>>
+# <<colorize Green zgreen>>
+# <<colorize Lemon zlemon>>
+# <<colorize Orange zorange>>
+# <<colorize Purple zpurple>>
+# <<colorize Red zred>>
+# <<colorize Silver zsilver>>
+
+!! How to use
+Simply add one of the above colorized tags (//zblue//, //zcyan//, //zgreen//, //zlemon//, //zorange//, //zpurple//, //zred//, //zsilver//) to your tiddler and save it. For example if you a wish to categorize a tiddler in Lemon category, add tag `zlemon` to it.
+
+
+!! Demo
+Click on the below button to close all tiddlers and open sample tiddlers colorized with semantic light colors.
+
+<<open-all filter:"[tag[demo]] +[search:title[light gradient]] +[!sort[]]" label:"Open light color examples">>

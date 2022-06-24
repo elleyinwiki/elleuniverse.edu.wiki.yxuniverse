@@ -1,0 +1,20 @@
+created: 20220418080337832
+creator: edu
+difficulty: 4.1558524350459605
+due: 20220509080337832
+grade: 1
+history: [{"due":"20220415024652476","interval":"2","difficulty":4.1000000000000005,"stability":6.091873624375545,"retrievability":0.9,"grade":"2","lapses":0,"reps":2,"review":"20220409024652475"},{"due":"20220509080337832","interval":"9","difficulty":4.1558524350459605,"stability":20.65901606881968,"retrievability":0.8558524350459593,"grade":"1","lapses":0,"reps":3,"review":"20220418080337831"}]
+interval: 9
+lapses: 0
+modified: 20220418080337832
+modifier: edu
+reps: 3
+retrievability: 0.8558524350459593
+review: 20220418080337831
+stability: 20.65901606881968
+tags: anki 脑 ?
+title: 边缘系统
+tmap.id: 58ace650-8faa-4fb4-b800-9dcdadf8b537
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[边缘系统]]" "About XP" "$:/state/tab/beginner" "tc-vertical">>

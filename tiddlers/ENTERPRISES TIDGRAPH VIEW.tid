@@ -1,0 +1,10 @@
+caption: 进度列表
+title: ENTERPRISES TIDGRAPH VIEW
+tmap.id: f9c628fe-851a-4c30-8b63-ad5d6c0ff91c
+type: text/vnd.tiddlywiki
+
+<$tidgraph filter="[tag[Enterprise]!has[draft.of]sort[]]" start="Planning" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Enterprise]!has[draft.of]sort[]]" start="Ongoing" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Enterprise]!has[draft.of]sort[]]" start="Completed" nodetemplate="IconTemplate" maxdepth="1"/>

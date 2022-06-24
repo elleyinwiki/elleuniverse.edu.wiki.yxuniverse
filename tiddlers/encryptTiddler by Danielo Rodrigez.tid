@@ -1,0 +1,26 @@
+caption: encryptTiddler
+created: 20210619133513246
+modified: 20210620041817240
+tags: [[Community Plugins]] [[Plugin Card]]
+title: encryptTiddler by Danielo Rodrigez
+tmap.id: 37bdb22d-e750-4481-be69-fb4011800f55
+type: text/vnd.tiddlywiki
+url: https://github.com/danielo515/TW5-EncryptTiddlerPlugin
+
+This plugin adds the ability to encrypt your tiddlers individually.
+
+{{!!url}}
+
+This have several advantages:
+
+* You can specify a different password for each tiddler if you want.
+* You don't have to encrypt your whole wiky.
+* If you forget your password, you only lose a tiddler.
+* It's possible to edit the tiddler content , tags and fields ''except the encrypt field'' after encryption. Decrypting your tiddler will restore it to its original state when you encrypted it. This way you can hide the encrypted tiddlers as a "different" thing.
+* You can even encrypt images.
+* You can have sensible data in a day to day wiky.
+* I didn't try this, but theoretically you can apply double encryption by encrypting your wiki too.
+
+<div />
+
+* $:/plugins/danielo515/encryptTiddler

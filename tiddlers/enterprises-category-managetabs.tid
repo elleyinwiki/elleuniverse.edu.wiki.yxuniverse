@@ -1,0 +1,38 @@
+caption: {{$:/core/images/options-button}}
+tags: enterprises-category
+title: enterprises-category-managetabs
+tmap.id: 32e1d840-a656-44dd-a7fe-7defe95fd2e3
+type: text/vnd.tiddlywiki
+
+! 隐藏分类
+
+Drag and drop to change the ordering
+
+<div style="padding:0 16px;line-height:27px;">
+<span class="tc-muted">''Caption'' -- //CTag//</span>
+<$vars aggregationTag="enterprises-category">
+<$macrocall
+	$name="list-tagged-draggable"
+	tag=<<aggregationTag>>
+	subFilter="!tag[hide]remove[enterprises-category-managetabs listing-enterprises-all enterprises-newcategory]"
+	itemTemplate="aggregation-categories-item.tmpl"
+	/>
+<span class="tc-muted">
+<$list filter="[all[shadows+tiddlers]tag<aggregationTag>tag[hide]!has[draft.of]]">
+<div>
+<$checkbox tiddler=<<currentTiddler>> tag="hide"/> ~~<span class="tc-icon-wrapper"> <$transclude field="caption"/> <span class="tc-muted">-- <$link to={{!!ctag}}><$view field="ctag"/></$link></span></span>~~
+</div>
+</$list>
+</span>
+</$vars>
+</div>
+
+
+! 激活分类标签
+
+<span class="tc-muted">点击下方按钮激活 ENTERPRISES 默认分类标签，以便选择输入或者搜索输入：</span>
+
+<$button> Show default category tags
+<$action-setfield $tiddler="Show enterprises default category tags" tags=<<enterprises-default-ctags>> />
+<$action-navigate $to="Show enterprises default category tags"/>
+</$button>

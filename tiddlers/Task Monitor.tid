@@ -1,0 +1,21 @@
+color: #bbb
+icon: $:/xp/images/tasks
+source: https://kookma.github.io/TW-Scripts/#Tasks
+title: Task Monitor
+tmap.id: 7fb82bf0-2f4f-4e15-b0b6-acec420d2eba
+type: text/vnd.tiddlywiki
+
+<div class="float-right">
+<$button actions={{$:/xp/ui/Actions/new-task}} class="btn btn-sm btn-info" >
+New Task
+</$button>
+</div>
+
+<small class="tc-muted">(<i>Here is a dynamic table, see [[Tutorial Dynamic Tables|https://kookma.github.io/TW-Shiraz/#Tutorial%20Dynamic%20Tables]]</i>)</small>
+
+Filter and search in table <$edit-text tiddler="$:/temp/tasks/dtable/search" filed=text tag=input default=""/>
+<$list filter="[[$:/temp/tasks/dtable/search]has[text]]" variable=null emptyMessage="""<small> All tasks: <$count filter="[tag[task]search{$:/temp/tasks/dtable/search}]"/></small>""">
+<small><$count filter="[tag[task]search{$:/temp/tasks/dtable/search}]"/> matches</small>
+</$list>
+
+<$macrocall $name=table-dynamic filter="[tag[task]search{$:/temp/tasks/dtable/search}]" fields="tbl-checkbox tbl-expand title priority status due-date tags" class="w-100" stateTiddler="tasks"/>

@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20220624073905867",
+        "creator": "edu",
+        "text": "被试坐在一间小的斜屋内，要求他把身体调正。",
+        "tags": "场独立性和场依存性的测验 ?",
+        "title": "身体顺应测验",
+        "type": "text/vnd.tiddlywiki",
+        "modified": "20220624073905867",
+        "modifier": "edu",
+        "caption": "{{||Excerpt}}",
+        "priority": "0",
+        "interval": "2",
+        "due": "20220626073905867",
+        "review": "20220407070253664",
+        "annotate-text": "被试坐在一间小的斜屋内，要求他把身体调正。",
+        "annotate-prefix": "\n                身体顺应测验 ：",
+        "annotate-suffix": "\n棒框测验：被试坐在暗室内，面前放着一个可以调节倾斜度的亮框，框中心装有一个能够转动度数的亮棒，要求",
+        "annotate-colour": "mark-red",
+        "tmap.id": "6dc84078-3818-4684-b9e0-64ca13ef4d4e"
+    }
+]

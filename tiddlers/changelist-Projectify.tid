@@ -1,0 +1,21 @@
+caption: Projectify
+tags: [[Change List]]
+title: changelist-Projectify
+tmap.id: 544cfdbf-df63-490d-ac98-43f457ea32cf
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/nico/projectify
+
+将主面板固定到侧边栏：
+
+* [[Projectify|$:/xp/ui/SideBar/Projectify]]
+
+
+将下面两项移出侧边栏：
+
+* $:/plugins/nico/projectify/ui/sidebar/Projects
+* $:/plugins/nico/projectify/ui/sidebar/Upcoming
+
+【查看工具栏】删除按钮中的 list-before 排序（用 <<tag $:/tags/ViewToolbar>> 中的 list 字段进行排序）：
+
+* $:/plugins/nico/projectify/ui/buttons/ToggleTodo

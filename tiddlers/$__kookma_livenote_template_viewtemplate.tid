@@ -1,0 +1,20 @@
+created: 20191027053442664
+creator: Mohammad
+modified: 20191027071707624
+modifier: Mohammad
+tags: $:/tags/ViewTemplate
+title: $:/kookma/livenote/template/viewtemplate
+type: text/vnd.tiddlywiki
+
+\define create-new-livenote()
+<span style="float:right">
+<$button actions=<<newTiddler>> class="tc-btn-invisible tc-tiddlylink livenote-btn" tooltip="create new livenote">
+{{$:/core/images/new-journal-button}}
+</$button>
+</span>
+\end
+
+<$list filter="[all[current]tag[livenote]]">
+<<create-new-livenote>>
+<$macrocall $name=livenote tidName=<<currentTiddler>> />
+</$list>

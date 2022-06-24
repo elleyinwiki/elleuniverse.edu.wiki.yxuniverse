@@ -1,0 +1,17 @@
+caption: Multi Column Tag Dropdown
+tags: [[Change List]]
+title: changelist-multicol-dropdown
+tmap.id: 3704656f-4649-418c-a1cd-719a41833131
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/wikilabs/multicol-dropdown
+
+Compatible with [[Stories|$:/plugins/sq/Stories]] plugin:
+
+* $:/plugins/wikilabs/multicol-dropdown/styles
+
+使用 [[Theme Changer|$:/xp/theme-changer]] 更换主题时，变更 tc-block-dropdown 的背景颜色：
+
+* $:/xp/theme-changer/styles/DarkGreen
+* $:/xp/theme-changer/styles/EyeCareGreen
+* $:/xp/theme-changer/styles/EyeCareGreen2

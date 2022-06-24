@@ -1,0 +1,52 @@
+created: 20190210045338435
+creator: Mohammad
+modified: 20190210101723859
+modifier: Mohammad
+tags: Contents
+title: Background Colors
+tmap.id: bf2ed8cf-213f-479d-a3a9-786bf4bcf123
+type: text/vnd.tiddlywiki
+
+\define colors()
+<span class="$(color)$">This is $(color)$ color</span><br>
+\end
+
+
+
+! Background colors
+These are a set of color classes change the whole tiddler background in a monotone form. These colors are categorized as:
+
+# Low tone (lighter colors)
+# High tone (light but darker than group one
+
+!! Low tone and light colors
+<<<
+These are eleven colors, start from //aliceblue// to //snow//.
+
+<$list filter="[list[stylesheet/semantic/tags-bglowtone-colors]sort[]]" variable="color">
+<<colors>>
+</$list>
+
+!!! Demo
+Click on the below button to close all tiddlers and open sample tiddlers colorized with low tone background colors.
+
+<<open-all filter:"[tag[demo]] +[search:title[low tone]] +[!sort[]]" label:"Open low tone examples">>
+<<<
+
+
+
+
+!! High tone and little dark colors
+<<<
+These are nine color classes. In comparison to low tone colors, these are a bit darker.
+
+<$list filter="[list[stylesheet/semantic/tags-bghightone-colors]sort[]]" variable="color">
+<<colors>>
+</$list>
+
+!!! Demo
+Click on the below button to close all tiddlers and open sample tiddlers colorized with high tone background colors.
+
+<<open-all filter:"[tag[demo]] +[search:title[high tone]] +[!sort[]]" label:"Open high tone examples">>
+
+<<<

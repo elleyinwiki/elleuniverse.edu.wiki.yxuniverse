@@ -1,0 +1,25 @@
+created: 20190209180053079
+creator: Mohammad
+modified: 20190210095240519
+modifier: Mohammad
+tags: Contents
+title: Border Colors
+tmap.id: 369a119b-b4f3-42ac-a40f-ab329721554b
+type: text/vnd.tiddlywiki
+
+!! Semantic border colors
+These are four border colors.
+
+# <<colorize Orange beginner>>: ''Beginner level''
+# <<colorize Yellow elementary>>: ''Elementary level''
+# <<colorize Green intermediate>>: ''Intermediate level''
+# <<colorize Blue advanced>>: ''Advanced level''
+
+!! How to use
+Simply add one of the above colorized tags (//beginner//, //elementary//, //intermediate//, //advanced//) to your tiddler and save it. For example if you a wish to categorize a tiddler in beginner category, add tag `beginner` to it.
+
+
+!! Demo
+Click on the below button to close all tiddlers and open sample tiddlers colorized with border colors.
+
+<<open-all filter:"[tag[demo]] +[search:title[bordered colors]]" label:"Open colored border examples">>

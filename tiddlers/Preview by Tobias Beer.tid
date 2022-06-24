@@ -1,0 +1,15 @@
+caption: Preview
+created: 20210619153012629
+modified: 20210621030931930
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Preview by Tobias Beer
+tmap.id: 9111ed62-ad94-4809-afd5-9a4f4587bb3c
+type: text/vnd.tiddlywiki
+url: https://github.com/tobibeer/tw5-preview
+
+{{!!url}}
+
+Shows a tiddler preview when hovering internal links
+
+* $:/plugins/tobibeer/preview
+** $:/plugins/tobibeer/appear

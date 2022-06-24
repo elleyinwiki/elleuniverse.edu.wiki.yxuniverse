@@ -1,0 +1,25 @@
+created: 20220418113624903
+creator: edu
+difficulty: 5.0538149682454625
+due: 20220428120915715
+grade: 1
+history: [{"due":"20220428120915715","interval":"3","difficulty":5.0538149682454625,"stability":7.290234566162131,"retrievability":0.8538149682454624,"grade":"1","lapses":0,"reps":2,"review":"20220421120915715"}]
+interval: 3
+lapses: 0
+modified: 20220421120915715
+modifier: edu
+reps: 2
+retrievability: 0.8538149682454624
+review: 20220421120915715
+stability: 7.290234566162131
+tags: anki ?
+title: 弗洛伊德-人格理论
+tmap.id: 6326f1bb-f354-48ae-ba1c-fb2e477232e4
+type: text/vnd.tiddlywiki
+
+
+''一、人格的结构模型''
+<br>`本我`、`自我`和`超我`
+<br>本我【id】：一切与生俱来的本能冲动组成；包括生的本能和死的本能；`快乐原则`
+<br>自我【ego】：本我的欲望于外部世界的现实之间的媒介；基本目的是在确保个体健康和生存的方式下满足本我的需要`现实原则`
+<br>超我【superego】：超我是社会禁忌与道德的内化，指人们的良心；超我通过本我系统压抑不正确或不道德的欲望`道德原则`

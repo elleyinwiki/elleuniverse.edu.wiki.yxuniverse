@@ -1,0 +1,14 @@
+caption: Incompatible List
+created: 20220413053055549
+creator: edu
+modified: 20220413053057032
+modifier: edu
+tags: 
+title: 不兼容插件列表
+tmap.id: e597f5d3-a54e-4aff-8e25-c4f757fa7e83
+type: text/vnd.tiddlywiki
+
+两个插件互相不兼容：
+
+|$:/plugins/tiddlywiki/dynannotate |!@@color:Red;incompatible with@@ |$:/plugins/tobibeer/appear |[[解决办法|dynannotate 与 appear 不兼容的解决办法]] |
+|$:/plugins/sq/Stories |!@@color:Red;incompatible with@@ |$:/plugins/souk21/commandpalette |[[解决办法|Stories 与 commandpalette 不兼容的解决办法]] |

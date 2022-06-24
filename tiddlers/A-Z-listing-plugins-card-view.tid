@@ -1,0 +1,22 @@
+caption: Card View
+title: A-Z-listing-plugins-card-view
+tmap.id: c3d5e812-f266-47ad-a3fd-6f070eea878c
+type: text/vnd.tiddlywiki
+
+<div class="tc-link-info">
+
+<$list filter='[all[shadows+tiddlers]tag[Plugin Card]!has[draft.of]sort[]]'>
+
+<div class="tc-link-info-item">
+
+! <$link><$view field="title"/></$link>
+
+<div class="tc-subtitle">Posted <$view field="modified" format="relativedate"/></div>
+
+<$transclude/>
+
+</div>
+
+</$list>
+
+</div>

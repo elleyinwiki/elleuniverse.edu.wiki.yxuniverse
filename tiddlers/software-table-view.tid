@@ -1,0 +1,7 @@
+title: software-table-view
+tmap.id: c304ec45-ab6d-4e7e-be3b-22f00019b9d7
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/software/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[SOFTWARE]search{$:/temp/software/dtable/search}]" fields="tbl-expand title purpose description moscow" class="w-100" stateTiddler="software"/>

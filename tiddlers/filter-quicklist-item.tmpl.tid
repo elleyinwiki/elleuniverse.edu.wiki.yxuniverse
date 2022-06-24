@@ -1,0 +1,7 @@
+title: filter-quicklist-item.tmpl
+tmap.id: 892646a3-aa28-4815-85d9-7453f3ee304d
+type: text/vnd.tiddlywiki
+
+<$draggable tiddler=<<currentTiddler>>>
+<$checkbox tiddler=<<currentTiddler>> tag="hide"/>&nbsp;<<quicklistDeleteButton>><span class="tc-muted"><$link to={{!!title}}><$view field="filter"/></$link>&emsp;<small><i><$transclude field="description"/></i></small></span>
+</$draggable>

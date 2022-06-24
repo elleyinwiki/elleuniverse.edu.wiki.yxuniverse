@@ -1,0 +1,9 @@
+caption: encryptTiddler
+tags: [[Change List]]
+title: changelist-encryptTiddler
+tmap.id: 1e572445-aa22-4a62-834a-232dfac85499
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/danielo515/encryptTiddler
+
+* 【查看工具栏】隐藏按钮时，显示说明文字：$:/plugins/danielo515/encryptTiddler/openPopup

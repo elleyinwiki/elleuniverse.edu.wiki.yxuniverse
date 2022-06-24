@@ -1,0 +1,16 @@
+caption: Highlight
+created: 20220420114827904
+creator: edu
+modified: 20220420114827904
+modifier: edu
+title: $:/xp/mark-button/mark-dropdown/highlight
+type: text/vnd.tiddlywiki
+
+<$macrocall $name='mark-colour-picker' actions="""
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix={{{ [[<mark class="mark-]addsuffix<colour-picker-value>lowercase[]addsuffix[">]] }}}
+	suffix="</mark>"
+/>
+"""/>

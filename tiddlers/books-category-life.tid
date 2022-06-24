@@ -1,0 +1,8 @@
+caption: 生活类
+ctag: Life
+tags: books-category
+title: books-category-life
+tmap.id: 6617e0bb-9515-4c4b-98b6-4bf1e67bc87d
+type: text/vnd.tiddlywiki
+
+<<list-books "Life">>

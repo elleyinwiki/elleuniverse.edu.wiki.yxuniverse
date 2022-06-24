@@ -1,0 +1,14 @@
+created: 20190210103131569
+creator: Mohammad
+modified: 20190210103156616
+modifier: Mohammad
+tags: 
+title: change-log
+tmap.id: 62423fad-895b-40ac-ab48-fd16e180ad63
+type: text/vnd.tiddlywiki
+
+!! Revision log
+* Second release: Feb 10th, 2019
+** Added 20 new background colors
+** Added new macro to create demos and delete them
+* Initial release: Feb 9th, 2019

@@ -1,0 +1,8 @@
+caption: 表格视图
+title: WHYS TABLE VIEW
+tmap.id: df75c0fe-61fc-4e0a-9863-b1d5f87534b6
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/whys/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[Why]search{$:/temp/whys/dtable/search}]" fields="tbl-expand title importance created tags" class="w-100" stateTiddler="whys"/>

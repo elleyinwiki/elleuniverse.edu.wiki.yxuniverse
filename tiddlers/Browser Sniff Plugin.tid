@@ -1,0 +1,11 @@
+caption: Browser Sniff
+created: 20210619152533564
+modified: 20210620041503431
+tags: [[Plugin Card]] OfficialPlugins
+title: Browser Sniff Plugin
+tmap.id: 9044850f-9a54-4e7a-8aa9-f74ab69fb4da
+type: text/vnd.tiddlywiki
+
+Browser feature detection
+
+* $:/plugins/tiddlywiki/browser-sniff

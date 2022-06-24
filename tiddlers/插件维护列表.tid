@@ -1,0 +1,17 @@
+title: 插件维护列表
+tmap.id: 7781e0ad-9014-4c9b-aa04-4255747c20dc
+type: text/vnd.tiddlywiki
+
+\define maintenanceList()
+[[$:/plugins/sq/Stories]] [[$:/plugins/tesseract/tekan]] [[$:/plugins/test/getplugins]] [[$:/xp]] [[$:/xp/buttonOrder]] [[$:/xp/buttonOrder-server]] [[$:/xp/columns]] [[$:/xp/details-button]] [[$:/xp/Diary]] [[$:/xp/emoji-button]] [[$:/xp/html-button]] [[$:/xp/LeftOpenTab]] [[$:/xp/magicSidebar]] [[$:/xp/manageTags]] [[$:/xp/mark-button]] [[$:/xp/modify-default-tiddlers]] [[$:/xp/PluginConfiguration]] [[$:/xp/Plugins]] [[$:/xp/quickbar]] [[$:/xp/SplashScreen]] [[$:/xp/switchlayout]] [[$:/xp/theme-changer]] [[$:/themes/xp-j]] [[$:/themes/xp-k]]
+\end
+
+<div style="margin:15px 0;padding:0 0 0 24px;">
+<ol class="tc-toc tc-muted">
+  <$list filter=<<maintenanceList>>>
+    <li>
+    <$link><$view field='title'/></$link>　<i><$view field='version'/></i>
+    </li>
+  </$list>
+</ol>
+</div>

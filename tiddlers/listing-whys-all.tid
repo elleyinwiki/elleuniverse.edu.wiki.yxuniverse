@@ -1,0 +1,23 @@
+caption: ALL
+tags: whys-category
+title: listing-whys-all
+tmap.id: 35874dcf-c358-45fe-ae60-ce514f06f543
+type: text/vnd.tiddlywiki
+
+<div class="box-list-tags">
+  <$list filter="[[Why]]">
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+  </$list>
+  <span class="xp-tag-divider"></span>
+  <$list filter="[tag[Why]tags[]remove[Why]remove<whys-default-ctags>sort[]]">
+    <$transclude tiddler="$:/xp/ui/TagTemplate/why"/>
+  </$list>
+</div>
+
+{{$:/language/clickpopup}}
+
+<div class="twocolumns" style="padding:10px 28px;line-height:1.55;">
+
+{{{ [tag[Why]!has[draft.of]sort[]] ||popup.tmpl}}}
+
+</div>

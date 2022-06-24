@@ -1,0 +1,27 @@
+caption: Refnotes
+created: 20210619132532501
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210620042151296
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Refnotes by Mohammad
+tmap.id: 6c613016-cad8-40d8-ab5c-a8198001d6b8
+type: text/vnd.tiddlywiki
+url: https://kookma.github.io/TW-Refnotes/
+
+Refnotes plugin is a set of macros and stylesheets for creating abbreviations, footnotes and citations. It also makes tables of footnotes, abbreviations (glossary) and references (bibliography table).
+
+{{!!url}}
+
+Refnotes contains codes and elements to
+
+;Create and insert
+:Abbreviation
+:Footnote
+:Reference
+
+;Create tables of
+:Abbreviations or glossary
+:Footnotes and endnotes
+:References (bibliography) using different output style 
+
+* $:/plugins/kookma/refnotes

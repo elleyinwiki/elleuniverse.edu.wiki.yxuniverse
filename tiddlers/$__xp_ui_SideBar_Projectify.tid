@@ -1,0 +1,10 @@
+caption: Projectify
+created: 20220413052952920
+creator: edu
+modified: 20220413055501240
+modifier: edu
+tags: 
+title: $:/xp/ui/SideBar/Projectify
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/nico/projectify/ui/dashboard/Dashboard}}

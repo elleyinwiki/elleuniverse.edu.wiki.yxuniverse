@@ -1,0 +1,8 @@
+caption: 表格视图
+title: BOOKSHELF TABLE VIEW
+tmap.id: 2aea07a9-94a3-4f33-b64c-8ff266f0e1fb
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/bookshelf/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[Book]search{$:/temp/bookshelf/dtable/search}]" fields="tbl-expand title importance created tags" class="w-100" stateTiddler="bookshelf"/>

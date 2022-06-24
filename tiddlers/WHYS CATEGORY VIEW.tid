@@ -1,0 +1,11 @@
+caption: 分类视图
+title: WHYS CATEGORY VIEW
+tmap.id: 55dc1fbf-736e-4325-a7c7-334d7c63c513
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="tabs"
+	tabsList="[all[shadows+tiddlers]tag[whys-category]!tag[hide]!has[draft.of]]"
+	default="listing-whys-all"
+	class=""
+	/>

@@ -1,0 +1,164 @@
+created: 20160421133040424
+creator: Mat
+modified: 20160421155911382
+modifier: Mat
+title: $:/plugins/SideEditor/Main_colors
+type: text/vnd.tiddlywiki
+
+$:/tags/Macro × $:/tags/PageTemplate
+
+\define tc-sidebar-header-padding() 14px
+
+\define tc-sidebar-header-margin-top() {{$:/themes/tiddlywiki/vanilla/metrics/storytop}}
+
+\define cm() 4.5cm
+
+\define tc-sidebar-scrollable-padding-top() 71px
+
+\define tc-sidebar-scrollable-padding-left() 42px
+
+\define tc-sidebar-scrollable-margin-left() -42px
+
+\define tc-sidebar-lists-width() 400px
+
+\define sideeditor(tid)
+<<slider "edge-left">><<slider "edge-top">>
+<div class="flip2se flip2seR"></div>
+<div id="outerLimit">
+   <div class="flip2se flip2seL"></div>
+   <div id="btnAndTitle">
+      {{$:/plugins/SideEditor/Button}}<$link to="$tid$">
+      <$view tiddler="$tid$" field="title" format="text"/></$link>
+   </div>
+   <$edit-text tiddler="$tid$" field="text" 
+           tag="textarea" class="sideeditor" />
+   <$list filter="[{$:/state/sideeditor}!prefix[no]]">
+
+<style>
+/** In-macro styles i.e only active when SE active **/
+.flip2se {position:fixed;
+    top:calc({{$:/plugins/SideEditor/Metrics!!edge-top}}vmin + 30px); 
+}
+.flip2seR {  z-index:3001;     box-shadow: inset 0 0 1px red;
+    left:calc({{$:/themes/tiddlywiki/vanilla/metrics/storyright}} + <<tc-sidebar-lists-width>> - 10px);
+    bottom:0; width:20px;
+}
+.flip2seL { z-index:-499;  box-shadow: inset 0 0 6px cyan;
+   left:calc({{$:/themes/tiddlywiki/vanilla/metrics/storyright}} - 42px);
+   height: 4em; width:<<tc-sidebar-lists-width>>;
+   background:<<colour page-background>>; opacity:.3; 
+} 
+
+/** scrollable > header > lists **/
+
+.tc-sidebar-scrollable .tc-sidebar-header { position:absolute;box-shadow: inset 0 0 6px brown;
+   max-height:calc(100vh - <<tc-sidebar-scrollable-padding--top>>); top:<<tc-sidebar-scrollable-padding-top>>; overflow:hidden;
+   padding:0px 0px 0 10px;   margin-left:-10px;
+}
+.tc-sidebar-scrollable:hover .tc-sidebar-header {z-index:-500; box-shadow: inset 0 0 6px green;}
+.tc-sidebar-scrollable { margin-left:-0px; padding-left:0px; /* reach SE immediately left of sidebar */
+}
+.tc-sidebar-scrollable:hover {z-index:3000;  box-shadow: inset 0 0 6px orange;
+}
+.tc-sidebar-lists {  box-shadow: inset 0 0 6px blue;
+    width:<<tc-sidebar-lists-width>>; padding:10px; margin-left:-10px;
+    padding-top:7px; margin-top:-10px;
+    max-height:calc(100vh - {{$:/themes/tiddlywiki/vanilla/metrics/storytop}} - <<cm>>);
+    overflow-y:hidden;
+}
+.tc-sidebar-scrollable:hover .tc-sidebar-lists {z-index:-500;
+    background:<<colour page-background>>;
+    border-bottom:1px solid lightgray;
+    box-shadow: inset 0 0 6px pink; padding-top:7px; margin-top:-10px;
+    overflow-y:auto;
+}
+</style> <!-- End of in-macro styles -->
+</$list>
+\end
+
+\define slider(field)
+<div id="slider$field$">
+   <$edit-text  tag="input" type="range"
+       tiddler="$:/plugins/SideEditor/Metrics" field="$field$" />
+</div>
+\end
+
+<style>
+#btnAndTitle svg { fill:lightgray; width:2em; height:1em; background:white; padding:0 5px;}
+#btnAndTitle a { padding: 0 15px; background:white;margin-left:-8px;}
+.sideeditor { resize:horizontal; overflow-y:auto;
+   width:calc(100vw  - 50px -
+             {{$:/themes/tiddlywiki/vanilla/metrics/storyright}}); 
+   max-width:calc({{$:/plugins/SideEditor/Metrics!!edge-left}}vmax - 40px);
+   max-height:calc(-80px + 100vmin - 
+             {{$:/plugins/SideEditor/Metrics!!edge-top}}vmin); 
+   border:1px solid gray; padding-left:5px; 
+}
+#outerLimit  { position:fixed; z-index:2001;
+   top:calc({{$:/plugins/SideEditor/Metrics!!edge-top}}vmin + 30px); 
+   right:0px; overflow:hidden; bottom:0;
+   width:{{$:/plugins/SideEditor/Metrics!!edge-left}}vmax;
+     box-shadow: inset 0 0 6px yellow;
+   padding-left:20px; /* prevent mistakenly hovering sidebar */
+}
+#slideredge-top { position:fixed;  top:53vmin; 
+   transform:rotate(90deg); width:100vmin; right:-48vmin;
+   z-index:4000;border:0px solid cyan;
+}
+#slideredge-left { position:fixed; bottom:0vmin; left:-.5vmax;
+   transform:rotate(180deg); width:100vmax;
+   z-index:4000;
+}
+
+/************************ Range Slider styling ***********************/
+/*** CRED: https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ ***/
+/*** See original code for commenting and original layout ****/
+
+/** Applying base styles **************/
+
+input[type=range] { -webkit-appearance: none; width: 100%; /* for Firefox. */ }
+input[type=range]::-webkit-slider-thumb {  -webkit-appearance: none; }
+input[type=range]:focus { outline: none; }
+
+input[type=range]::-ms-track {
+  width: 100%; height:0; cursor: pointer;
+  background: transparent; color: transparent;  border-color: transparent;
+}
+
+/** Styling the Thumb ***********************/
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-shadow: inset 4px 0px 0px gray, 0px 0px 0px #000000;
+  border: 0px;  border-radius: 0px;
+  height: 20px; width: 16px;
+  background: transparent;
+  cursor: pointer;
+  margin-top: -14px;
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: inset 4px 0px 0px gray, 0px 0px 0px #000000;
+  border: 0px;  border-radius: 0px;
+  height: 20px; width: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: inset 4px 0px 0px gray, 0px 0px 0px #000000;
+  border: 0px;  border-radius: 0px;
+  height: 20px; width: 16px; 
+  background: transparent;
+  cursor: pointer;
+}
+
+/** Styling the Track *************************/
+
+input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 0px; }
+input[type=range]::-moz-range-track { height: 0px; }
+
+</style>

@@ -1,0 +1,15 @@
+caption: Prism
+created: 20211026161002202
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20211026161342042
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Prism by Gera2ld
+tmap.id: 2574a750-46ce-479c-b06e-c0eaf9b7a38a
+type: text/vnd.tiddlywiki
+url: https://gera2ld.github.io/tw-prism/
+
+This is a TiddlyWiki plugin for syntax highlight with PrismJS.
+
+{{!!url}}
+
+* $:/plugins/gera2ld/prism

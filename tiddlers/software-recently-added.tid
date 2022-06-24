@@ -1,0 +1,17 @@
+title: software-recently-added
+tmap.id: ba1e18c4-df62-4905-b945-dedece91ecee
+type: text/vnd.tiddlywiki
+
+\define software-recent()
+<div style="margin:15px 0;padding:0 0 0 24px;font-size:1.17em;">
+<ol class="tc-toc">
+  <$list filter="""[all[shadows+tiddlers]tag[SOFTWARE]!has[draft.of]!sort[created]limit[15]] -[[SOFTWARE]]""">
+    <li>
+    <$link><$view field='caption'><$view field='title'/></$view></$link>
+    </li>
+  </$list>
+</ol>
+</div>
+\end
+
+<<software-recent>>

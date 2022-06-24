@@ -1,0 +1,9 @@
+caption: 表格视图
+title: ENTERPRISES TABLE VIEW
+tmap.id: 701024cc-8020-46f2-9519-b521709dd182
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/enterprises/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[Enterprise]search{$:/temp/enterprises/dtable/search}]" fields="tbl-expand title 
+country fdate tags" class="w-100" stateTiddler="enterprises"/>

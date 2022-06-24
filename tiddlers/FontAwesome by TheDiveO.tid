@@ -1,0 +1,17 @@
+caption: FontAwesome
+created: 20210619131710659
+modified: 20210620041851311
+tags: [[Community Plugins]] [[Plugin Card]]
+title: FontAwesome by TheDiveO
+tmap.id: 71d28b7e-a2e3-4eaa-9b5d-2ebca7ebc273
+type: text/vnd.tiddlywiki
+url: http://thediveo.github.io/TW5FontAwesome/
+
+{{!!url}}
+
+<<<
+The FontAwesome plugin supports embedding  Font Awesome in  TiddlyWiki 5. There is no need to install this font into your operating system in order to use it with TiddlyWiki 5. The font is already embedded in this TiddlyWiki 5 customization plugin instead, so nothing else to install.
+<<<
+
+
+* $:/plugins/TheDiveO/FontAwesome

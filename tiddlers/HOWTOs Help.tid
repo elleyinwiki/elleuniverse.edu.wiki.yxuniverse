@@ -1,0 +1,56 @@
+color: #bbb
+icon: $:/core/images/help
+title: HOWTOs Help
+tmap.id: 2ee14cc8-6833-4358-a479-efd16e440363
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+HOWTOs 是操作指南条目的索引界面。
+
+</span>
+
+
+! 为什么要使用 HOWTOs？
+
+当在维基中记录一些操作指南时，通过 TableOfContents 查找的效率低。通过搜索「关键词」可以快速查找，但如果想不起来关键词呢？所以，HOWTOs 提供了一个更加直观的索引界面。
+
+在 HOWTOs 中，使用标签 `Howto` 标记条目，然后使用「[[分类标签|分类标签与分类标签栏]]」进行分类。比如，当用户创建一份指南后，打上分类标签 `生活`，条目就显示在「生活」分类中。
+
+
+! 如何使用？
+
+# 点击按钮 <span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new howto 创建条目。<div><span class="gray-box">
+
+字段说明：
+
+* `linkstyle`（非必需）：用于标记条目链接的显示颜色。通常建议删除，常用 Howto 可用特殊颜色标识。该字段由 $:/LinkStyle/Stylesheet 控制。
+
+</span> 
+</div>
+
+# 条目归类。<div><span class="gray-box">
+
+新建条目默认带有「未归类」<<tag Uncategorized>> 标签，要显示在其他「分类」中，需要删除它并重新打上分类标签：
+
+* 文档类标签为 <<tag Documents>>，
+* 音频类标签为 <<tag Music>>，
+* 图片类标签为 <<tag Pictures>>，
+* 视频类标签为 <<tag Videos>>，
+* 其他类标签为 <<tag Others>>，
+* ……
+
+每个分类含有一个标签栏，用于显示下属条目含有的其他标签——其主要用途为，使用标签继续划分条目时，可以通过标签栏快速导航。
+</span> 
+</div>
+
+# 注意事项。<div><span class="gray-box">
+
+建议条目标题涵盖较大的范围。比如「如何压缩图片大小？」最好不要使用它的子标题：
+
+* Linux 上如何压缩图片大小？
+* 如何使用 GIMP 压缩图片大小？
+* 在线压缩图片大小
+
+</span> 
+</div>

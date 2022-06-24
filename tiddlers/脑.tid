@@ -1,0 +1,10 @@
+color: #fff194
+icon: brain.svg
+tags: 中枢神经系统
+title: 脑
+tmap.id: 2436d935-c3fd-493f-9edb-7976cc02617d
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[脑]]" "About XP" "$:/state/tab/beginner" "tc-vertical">>
+
+[img[a684fb93a3dbbf6598b01ce72e6a61ef.jpeg]]

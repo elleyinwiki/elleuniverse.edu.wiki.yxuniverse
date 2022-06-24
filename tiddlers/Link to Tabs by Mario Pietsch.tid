@@ -1,0 +1,14 @@
+caption: Link to Tabs
+created: 20210619153324648
+modified: 20210621030613254
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Link to Tabs by Mario Pietsch
+tmap.id: ba1497f8-b74c-4d51-82a5-38ca9eb8c789
+type: text/vnd.tiddlywiki
+url: https://wikilabs.github.io
+
+{{!!url}}
+
+Internal links are added to tabs if selected
+
+* $:/plugins/wikilabs/link-to-tabs

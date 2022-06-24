@@ -1,0 +1,20 @@
+created: 20220418075048280
+creator: edu
+difficulty: 6.264370573662529
+due: 20220625073928005
+grade: 0
+history: [{"due":"20220422120835226","interval":"3","difficulty":6.0538149682454625,"stability":1.4816364413634358,"retrievability":0.8538149682454624,"grade":"0","lapses":1,"reps":1,"review":"20220421120835225"},{"due":"20220625073928005","interval":"64","difficulty":6.264370573662529,"stability":1.097623272188053,"retrievability":0.010555605417066127,"grade":"0","lapses":2,"reps":1,"review":"20220624073928005"}]
+interval: 64
+lapses: 2
+modified: 20220624073928005
+modifier: edu
+reps: 1
+retrievability: 0.010555605417066127
+review: 20220624073928005
+stability: 1.097623272188053
+tags: anki ?
+title: GAD概念
+tmap.id: 2bfcd8b1-765b-4c28-8766-2e75ae51cdef
+type: text/vnd.tiddlywiki
+
+具有对一系列生活事件或活动感到过分的、难以控制的担忧。其基本特征是慢性、不可控的担忧`对象反应`

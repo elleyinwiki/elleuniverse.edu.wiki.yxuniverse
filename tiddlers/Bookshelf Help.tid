@@ -1,0 +1,57 @@
+color: #bbb
+icon: $:/core/images/help
+title: Bookshelf Help
+tmap.id: 5a77c472-964f-452c-b0c7-5b5707ac18bc
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+''书架（Bookshelf）的用途：''通过「表格视图」或「分类视图」可以快速查找书目。
+
+</span>
+
+! 为什么要使用书架？
+
+当图书越来越多时，通过 TableOfContents 一层一层往下找的效率很低，即大脑的运算速度慢。虽然通过搜索可以查找条目，但或许我们需要一个直观的索引界面，提高大脑的运算速度，同时减少 TableOfContents 的下级目录。
+
+
+! 如何使用？
+
+# ''创建图书''
+#* 点击 <span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new book 创建图书的目录。参考《睡眠革命》这本书的[[目录|Sleep: Redefine Your Rest, for Success in Work, Sport and Life]]。<div><span class="gray-box">
+
+字段说明：
+
+* `caption`：显示名称，通常是对 `title` 的简化或者别称。（可以重名）
+* `image`：书籍封面图，不支持 SVG。为了管理，添加标签 <<tag BookCover>>。建议图片标题中使用小写和下划线。
+* `link`：填入 `title` 字段值。使得点击封面图时打开该条目。
+* `linkstyle`（非必需）：用于标记条目链接的显示颜色。通常建议删除。该字段由 $:/LinkStyle/Stylesheet 控制。
+
+为了显示在「分类视图」中，需要手动打「[[分类标签|分类标签与分类标签栏]]」：
+
+* 阅读中的书目打上标签 <<tag Ongoing>>，
+* 已完成的书目打上标签 <<tag Completed>>，
+* 其他分类……
+
+</span> 
+</div>
+
+# ''浏览''
+#* 「表格视图」中，可以在其搜索框中进行搜索过滤（只能检索 `title` 和 `text` 中的文字，其他字段无法检索）；还可以点击表头字段改变排序。
+#* 「分类视图」中，每个分类含有一个标签栏，用于显示下属条目含有的其他标签——其主要用途为，使用标签继续划分条目时，可以通过标签栏快速导航。<div><span class="gray-box">
+
+「分类视图」是匹配条目的标签。比如标签卡「阅读中」使用下面的过滤器：
+
+* `[tag[Book]tag[Ongoing]!has[draft.of]sort[]]`
+</span>
+</div>
+
+# 如何命名图书内容条目
+#*'' 命名格式：'' `<bookname>/<chapter>/<section>` <div><span class="gray-box">
+
+参考《睡眠革命》的[[目录|Sleep: Redefine Your Rest, for Success in Work, Sport and Life]]。
+
+通过此格式对图书内容条目进行命名，只要保证 `<bookname>` 不一样，就能避免标题重名。
+
+</span>
+</div>

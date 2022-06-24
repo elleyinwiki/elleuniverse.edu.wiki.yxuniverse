@@ -1,0 +1,11 @@
+caption: Pretty link button
+tags: [[Change List]]
+title: changelist-prettylink-button
+tmap.id: d5981c1c-d65d-471d-ade0-003d1f20c755
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/tg/prettylink-button
+
+修改前后缀内容：
+
+* $:/core/ui/EditorToolbar/prettylink

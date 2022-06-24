@@ -1,0 +1,11 @@
+author: kl
+created: 20210410192413385
+dependents: 
+description: Includes modifications to installed plug-ins
+list: readme
+modified: 20220217031134117
+name: PluginConfiguration
+plugin-type: plugin
+title: $:/xp/PluginConfiguration
+type: application/json
+version: 5.2.1.1

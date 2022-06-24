@@ -1,0 +1,14 @@
+created: 20190209171510648
+creator: Mohammad
+modified: 20190209171858782
+modifier: Mohammad
+tags: $:/tags/Macro
+title: macro/colorize
+tmap.id: 58c9ff04-c92c-4da1-80b5-7fd08d138985
+type: text/vnd.tiddlywiki
+
+\define colorize(label,color)
+@@.$color$
+Colorized with $label$
+@@
+\end

@@ -1,0 +1,11 @@
+caption: Favorites
+tags: [[Change List]]
+title: changelist-Favorites
+tmap.id: a0746941-9294-410a-b79e-9cca92b747e5
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/kookma/favorites
+
+由于侧边栏固定的项目较多，将文字标题换为图标显示：
+
+* $:/plugins/kookma/favorites/sidebar-tab

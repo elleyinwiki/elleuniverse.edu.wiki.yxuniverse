@@ -1,0 +1,26 @@
+created: 20220421121012115
+creator: edu
+difficulty: 3.3072594781206863
+due: 20220523121012114
+grade: 1
+history: [{"due":"20220407134749686","interval":"0","difficulty":4.2,"stability":2,"retrievability":1,"grade":"2","lapses":0,"reps":2,"review":"20220405134749685"},{"due":"20220421024635427","interval":"4","difficulty":3.21,"stability":11.662429892611863,"retrievability":0.81,"grade":"2","lapses":0,"reps":3,"review":"20220409024635427"},{"due":"20220523121012114","interval":"12","difficulty":3.3072594781206863,"stability":31.716257633701172,"retrievability":0.897259478120686,"grade":"1","lapses":0,"reps":4,"review":"20220421121012114"}]
+interval: 12
+lapses: 0
+modified: 20220421121012115
+modifier: edu
+reps: 4
+retrievability: 0.897259478120686
+review: 20220421121012114
+stability: 31.716257633701172
+tags: anki 边缘系统 ?
+title: 杏仁核
+tmap.id: cc95094b-6495-4113-bd1c-baa08dfec228
+type: text/vnd.tiddlywiki
+
+
+`amygdala`
+
+
+<<<
+与<mark class="mark-red">情绪</mark>有关的神经中枢：情绪控制、情绪记忆
+<<<

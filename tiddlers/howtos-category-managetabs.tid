@@ -1,0 +1,38 @@
+caption: {{$:/core/images/options-button}}
+tags: howtos-category
+title: howtos-category-managetabs
+tmap.id: a6869f1e-77fe-473e-8880-d2805c2b62c3
+type: text/vnd.tiddlywiki
+
+! 隐藏分类
+
+Drag and drop to change the ordering
+
+<div style="padding:0 16px;line-height:27px;">
+<span class="tc-muted">''Caption'' -- //CTag//</span>
+<$vars aggregationTag="howtos-category">
+<$macrocall
+	$name="list-tagged-draggable"
+	tag=<<aggregationTag>>
+	subFilter="!tag[hide]remove[howtos-category-managetabs listing-howtos-all howtos-newcategory]"
+	itemTemplate="aggregation-categories-item.tmpl"
+	/>
+<span class="tc-muted">
+<$list filter="[all[shadows+tiddlers]tag<aggregationTag>tag[hide]!has[draft.of]]">
+<div>
+<$checkbox tiddler=<<currentTiddler>> tag="hide"/> ~~<span class="tc-icon-wrapper"> <$transclude field="caption"/> <span class="tc-muted">-- <$link to={{!!ctag}}><$view field="ctag"/></$link></span></span>~~
+</div>
+</$list>
+</span>
+</$vars>
+</div>
+
+
+! 激活分类标签
+
+<span class="tc-muted">点击下方按钮激活 HOWTOs 默认分类标签，以便选择输入或者搜索输入：</span>
+
+<$button> Show default category tags
+<$action-setfield $tiddler="Show howtos default category tags" tags=<<howtos-default-ctags>> />
+<$action-navigate $to="Show howtos default category tags"/>
+</$button>

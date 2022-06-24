@@ -1,0 +1,19 @@
+title: 分类标签与分类标签栏
+tmap.id: 53aecc34-88d8-4ca4-8aff-beaad6fb4a6d
+type: text/vnd.tiddlywiki
+
+;''分类标签''
+:Category Tag，简写为 CTag，是一个在多个主题中共用的标签（标记不同的范畴）。分类标签是一个关键词，而不是一句话。分类标签应用在 [[BOOKSHELF]]、[[COURSES]]、[[HOWTOs]] 和 [[WHYs]] 等聚合内容中，其最大的好处就是容易记忆和便于检索。
+
+;''分类标签栏''
+:负责过滤分类标签的子条目。「分类标签栏」中的标签只会显示当前主题的子条目。
+
+<span class="gray-box">
+
+''举例说明''
+
+[[BOOKSHELF]] 和 [[COURSES]] 的「分类视图」中，都用了 `Ongoing`（阅读中/学习中）这个标签。直接查看 <<tag Ongoing>> 包含了两个主题的条目，但是查看「分类标签栏」中的标签时，只会显示当前主题的条目。
+
+这是因为「分类标签栏」的标签中，使用了双标签/多标签进行过滤。比如 [[BOOKSHELF]]，其分类标签栏中的 Ongoing 标签暗含了过滤规则 `[tag[Book]tag[Ongoing]]`；如果该类别的条目还打了其他标签，会将 OtherTag 显示在标签栏中，并暗含过滤规则 `[tag[Book]tag[Ongoing]tag[OtherTag]]`。
+
+</span>

@@ -1,0 +1,16 @@
+caption: Tiddlytime
+created: 20210620040457050
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210620042258237
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Tiddlytime Button
+tmap.id: 22308a75-40f1-4e4e-997c-98b6fdcb2353
+type: text/vnd.tiddlywiki
+url: http://tiddlytime.tiddlyspot.com/
+
+TiddlyTime Button - for current time and transcluding it where needed
+
+{{!!url}}
+
+
+* $:/plugins/ajh/tiddlytime

@@ -1,0 +1,11 @@
+author: Mat von TWaddle
+created: 20200716000516863
+description: A live editor floating by the river side...
+list: readme
+modified: 20200803173340474
+name: SideEditor
+plugin-type: plugin
+source: http://sideeditor.tiddlyspot.com/
+title: $:/plugins/TWaddle/SideEditor
+type: application/json
+version: 3.0.12

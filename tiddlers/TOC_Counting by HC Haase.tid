@@ -1,0 +1,15 @@
+caption: TOC_Counting
+created: 20210621025712033
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210621025940096
+tags: [[Community Plugins]] [[Plugin Card]]
+title: TOC_Counting by HC Haase
+tmap.id: c50eaa1e-80c8-46ea-a92f-6e14ed8e5ed1
+type: text/vnd.tiddlywiki
+url: https://hchaase.github.io/HC-Plugins/#TOC_Counting%20Introduction
+
+{{!!url}}
+
+This counting plugin adds a count of child tiddlers to the right of each TOC entry
+
+* $:/plugins/hchaase/toc_counting

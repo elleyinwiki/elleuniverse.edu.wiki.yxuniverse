@@ -1,0 +1,17 @@
+caption: Multi Column Tag Dropdown
+created: 20210619153620009
+modified: 20210621030855722
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Multi Column Tag Dropdown by Mario Pietsch
+tmap.id: 21888ea8-e606-4eef-8bd1-0c0801e612c8
+type: text/vnd.tiddlywiki
+url: https://wikilabs.github.io
+
+{{!!url}}
+
+This plugin changes most dropdown dialogs into multi column dialogs, with CSS only.
+
+This plugin is handy, if you have eg: ''a lot of tags''
+
+
+* $:/plugins/wikilabs/multicol-dropdown

@@ -1,0 +1,17 @@
+{
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"wrap-selection\"\n\tprefix=\"`\"\n\tsuffix=\"`\"\n/>\n",
+    "created": "20220418015556620",
+    "creator": "edu",
+    "title": "Draft of '$:/plugins/tiddlywiki/markdown/EditorToolbar/mono-line' by edu",
+    "list-after": "$:/core/ui/EditorToolbar/mono-line",
+    "tags": "$:/tags/EditorToolbar",
+    "icon": "$:/core/images/mono-line",
+    "caption": "{{$:/language/Buttons/MonoLine/Caption}} (Markdown)",
+    "description": "{{$:/language/Buttons/MonoLine/Hint}}",
+    "condition": "[<targetTiddler>type[text/x-markdown]]",
+    "shortcuts": "((mono-line))",
+    "modified": "20220418015636371",
+    "modifier": "edu",
+    "draft.title": "$:/plugins/tiddlywiki/markdown/EditorToolbar/mono-line",
+    "draft.of": "$:/plugins/tiddlywiki/markdown/EditorToolbar/mono-line"
+}

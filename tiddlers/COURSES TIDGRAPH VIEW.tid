@@ -1,0 +1,10 @@
+caption: 进度列表
+title: COURSES TIDGRAPH VIEW
+tmap.id: b4ae4484-a85d-426f-bd20-b5f396896c47
+type: text/vnd.tiddlywiki
+
+<$tidgraph filter="[tag[Course]!has[draft.of]sort[]]" start="Planning" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Course]!has[draft.of]sort[]]" start="Ongoing" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Course]!has[draft.of]sort[]]" start="Completed" nodetemplate="IconTemplate" maxdepth="1"/>

@@ -1,0 +1,19 @@
+created: 20190209074408334
+creator: Mohammad
+modified: 20190209161332718
+modifier: Mohammad
+tags: $:/tags/Macro
+title: Open all of Type
+tmap.id: 8995fd51-63ed-4641-9c55-a5210ccef102
+type: text/vnd.tiddlywiki
+
+\define open-all(filter, label:"Open all")
+<$button>$label$
+<$action-sendmessage $message="tm-close-all-tiddlers"/>
+<$list filter=<<__filter__>> >
+<$action-navigate $to=<<currentTiddler>> />
+</$list>
+</$button>
+\end
+
+<<open-all filter:"[tag[example]sort[]]" label:"Open all examples">>

@@ -1,0 +1,6 @@
+color: #dff0fb
+title: BookCover
+tmap.id: e9b96427-c4f0-46e5-be73-f8b6574eaef4
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[all[shadows+tiddlers]tag[BookCover]] -[[BookCover]]">>

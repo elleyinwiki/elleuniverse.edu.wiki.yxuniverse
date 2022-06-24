@@ -1,0 +1,82 @@
+created: 20190210072705723
+creator: Mohammad
+modified: 20190210094948587
+modifier: Mohammad
+tags: 
+title: Create and Delete Demo Tiddlers
+tmap.id: 00d559a5-963b-4216-8664-70a6990e074e
+type: text/vnd.tiddlywiki
+
+\define delete-all(tag)
+<$button> Delete all Tiddlers tagged with: $tag$ 
+<$action-deletetiddler $filter="[tag[$tag$]]"/>
+</$button>
+\end
+
+
+\define text() {{Test}}
+\define oneTid(myTitle, myTag)
+  <$action-createtiddler 
+    $basetitle=<<__myTitle__>>
+    tags="""$myTag$ demo"""
+    text=<<text>>
+    field01="Sample field..."
+  /> 
+\end
+
+\define make-title(lbl) $lbl$: $(color)$
+
+\define createTids(tid, label)
+<$button> Make $label$ Examples
+<$list filter="[list[$tid$]sort[]]" variable="color">
+<$macrocall $name="oneTid" myTitle=<<make-title "$label$">> myTag=<<color>>/>
+</$list>
+</$button>
+\end
+
+! Create demo tiddlers
+Different demo tiddler can be created and removed here.
+
+
+
+!! Light and dark gradient colors
+<<<
+The below buttons create example tiddlers for light and dark gradient colors.
+
+<<createTids tid:"stylesheet/semantic/tags-lightcolors" label:"Light Gradient">>
+
+<<createTids tid:"stylesheet/semantic/tags-darkcolors" label:"Dark Gradient">>
+
+<<<
+
+
+
+!! Colored left border
+<<<
+The below button creates example tiddlers for colored left border.
+
+<<createTids tid:"stylesheet/semantic/tags-border-colors" label:"Bordered Colors">>
+
+<<<
+
+
+!! Low and high tone background colors
+<<<
+The below buttons create example tiddlers for low and high tone background colors.
+
+<<createTids tid:"stylesheet/semantic/tags-bglowtone-colors" label:"Low Tone">>
+
+<<createTids tid:"stylesheet/semantic/tags-bghightone-colors" label:"High Tone">>
+<<<
+
+
+
+
+!! Delete all examples
+<<<
+<p style="color:red;">
+Warning: This button will delete all tiddlers tagged with `demo`.
+</p>
+
+<<delete-all demo>>
+<<<

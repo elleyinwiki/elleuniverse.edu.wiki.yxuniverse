@@ -1,0 +1,6 @@
+color: #ffa07a
+title: update
+tmap.id: 7bbce0b4-b2d4-4f59-87dd-b439fc02b0a8
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[all[shadows+tiddlers]tag[update]]">>

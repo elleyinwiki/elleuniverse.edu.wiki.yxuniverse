@@ -1,0 +1,11 @@
+title: Currently Installed Plugins
+tmap.id: 015d865b-cb0f-4b66-ab78-637a85a2afca
+type: text/vnd.tiddlywiki
+
+<ol class="tc-toc tc-muted">
+  <$list filter="""[plugin-type[plugin]] [plugin-type[theme]] [plugin-type[language]] +[!has[draft.of]sort[]]""">
+    <li>
+    <$link><$view field='title'/></$link>　<i><$view field='version'/></i>
+    </li>
+  </$list>
+</ol>

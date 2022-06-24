@@ -1,0 +1,27 @@
+created: 20190209091449329
+modified: 20190209091633474
+tags: 
+title: Test
+tmap.id: fa2fad40-6d41-42bd-bef1-c518e70ea84f
+type: text/vnd.tiddlywiki
+
+! Heading one
+<<.lorem>>
+
+!! Heading two
+* One 
+* Two
+
+; Code
+
+```
+def fun(x)
+ z=2*x;
+ return z;
+```
+
+This is a quote.
+
+><<.lorem>>
+
+This is also a `sample` code.

@@ -1,0 +1,7 @@
+color: #00cc33
+icon: $:/core/images/done-button
+title: done
+tmap.id: 7f1f7ed3-8f6e-47ab-b442-f2021717cda2
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[tag[done]]">>

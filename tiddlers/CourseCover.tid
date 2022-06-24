@@ -1,0 +1,6 @@
+color: #dff0fb
+title: CourseCover
+tmap.id: 571fed97-94dd-402d-b8d4-1e8c87253a5f
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[all[shadows+tiddlers]tag[CourseCover]] -[[CourseCover]]">>

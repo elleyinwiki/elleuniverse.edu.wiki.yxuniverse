@@ -1,0 +1,23 @@
+caption: ALL
+tags: howtos-category
+title: listing-howtos-all
+tmap.id: bc4052eb-2796-4ee0-8327-2f01120efb22
+type: text/vnd.tiddlywiki
+
+<div class="box-list-tags">
+  <$list filter="[[Howto]]">
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+  </$list>
+  <span class="xp-tag-divider"></span>
+  <$list filter="[tag[Howto]tags[]remove[Howto]remove<howtos-default-ctags>sort[]]">
+    <$transclude tiddler="$:/xp/ui/TagTemplate/howto"/>
+  </$list>
+</div>
+
+{{$:/language/clickpopup}}
+
+<div class="twocolumns" style="padding:10px 28px;line-height:1.55;">
+
+{{{ [tag[Howto]!has[draft.of]sort[]] ||popup.tmpl}}}
+
+</div>

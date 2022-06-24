@@ -1,0 +1,8 @@
+caption: 教育类
+ctag: Education
+tags: books-category
+title: books-category-education
+tmap.id: ba81059b-4dba-4814-a586-958feb962370
+type: text/vnd.tiddlywiki
+
+<<list-books "Education">>

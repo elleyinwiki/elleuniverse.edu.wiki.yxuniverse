@@ -1,0 +1,16 @@
+caption: Palettes for XP
+created: 20210620010048500
+linkstyle: color:#4ac3bf;
+modified: 20210620060632846
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Palettes for XP
+tmap.id: 0d33d75f-8fa3-4efc-931f-a504c0239e76
+type: text/vnd.tiddlywiki
+
+@@.list-tree
+* [[j.d.palette|http://j.d.palette.tiddlyspot.com/]]
+** $:/palettes/jd/CoolMint
+** $:/palettes/jd/Neonize
+* [[引思网卡片库|https://wiki.hintsnet.com/#]]
+** $:/palettes/pimgeek ,,@@color:Red;//modified//@@,,
+@@

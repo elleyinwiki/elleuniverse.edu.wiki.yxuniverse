@@ -1,0 +1,10 @@
+caption: 集体所有制企业
+ctag: 集体所有制企业
+tags: enterprises-category
+title: enterprises-category-集体所有制企业
+tmap.id: 72898d2b-7a08-4f8e-afaa-86ce82d57598
+type: text/vnd.tiddlywiki
+
+//<small>它也分为企业法人和营业单位两种。集体所有制企业法人主办单位一般是事业单位、社团组织、工会、村委会等。营业单位可以由企业法人下设成立，也可由事业单位、社团组织、工会、村委会等法人组织直接下设成立。</small>//
+
+<<list-enterprises 集体所有制企业>>

@@ -1,0 +1,11 @@
+caption: 分类视图
+title: HOWTOS CATEGORY VIEW
+tmap.id: 5eb84ee5-bab2-4fb3-9aed-00ffd9574af8
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="tabs"
+	tabsList="[all[shadows+tiddlers]tag[howtos-category]!tag[hide]!has[draft.of]]"
+	default="listing-howtos-all"
+	class=""
+	/>

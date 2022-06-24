@@ -1,0 +1,11 @@
+title: Change List
+tmap.id: fefe3730-d7f2-469f-8509-2d06a2343d67
+type: text/vnd.tiddlywiki
+
+!! 插件更改 / 适配
+
+为确保更新插件时修改过的内容不会被覆盖掉，对修改的条目进行封装。插件条目封装至 $:/xp/PluginConfiguration；系统条目封装至 $:/xp/modify-default-tiddlers。
+
+<$list filter="[all[tiddlers+shadows]tag[Change List]sort[title]limit[1]]">
+  <$macrocall $name="tabs" tabsList="[all[tiddlers+shadows]tag[Change List]sort[]]" default={{!!title}} class="tc-vertical" />
+</$list>

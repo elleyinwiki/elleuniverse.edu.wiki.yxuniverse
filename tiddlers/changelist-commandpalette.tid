@@ -1,0 +1,35 @@
+caption: Command palette
+tags: [[Change List]]
+title: changelist-commandpalette
+tmap.id: 1db464bd-15d7-43d0-a5c1-34db3fa46c04
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/souk21/commandpalette
+
+调整故事河顶边距：
+
+* $:/plugins/souk21/commandpalette/View <div>
+
+```css
+<div style="margin-top: -5px">
+
+<$commandpalettewidget/>
+
+</div>
+```
+</div>
+
+调整搜索框宽度：
+
+* $:/plugins/souk21/commandpalette/Compact.css <div>
+
+```css
+.commandpalette {
+    width: 600px;
+}
+```
+</div>
+
+修复与 [[Stories|$:/plugins/sq/Stories]] 插件的冲突。默认在主栏打开条目：
+
+* $:/xp/ui/PageTemplate/fix-commandpalette

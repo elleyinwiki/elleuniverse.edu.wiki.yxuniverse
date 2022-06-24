@@ -1,0 +1,17 @@
+title: dynannotate 与 appear 不兼容的解决办法
+tmap.id: 7eb5bdf9-2c84-4de8-a828-5ad4f397434c
+type: text/vnd.tiddlywiki
+
+''问题描述：''同时使用两个插件，将导致错误弹窗。
+
+<span class="red-box">
+
+!! Internal JavaScript Error
+
+Well, this is embarrassing. It is recommended that you restart TiddlyWiki by refreshing your browser
+
+Uncaught TypeError: Cannot read property 'offsetLeft' of null
+
+</span>
+
+''解决办法：''不知道怎么解决。但好在一般不启用 Dynannotate 插件。

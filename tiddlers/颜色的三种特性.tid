@@ -1,0 +1,20 @@
+tags: 颜色
+title: 颜色的三种特性
+tmap.id: 4026dd17-ffe4-42f1-a48f-f28e0222ebf9
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+<mark class="mark-red">色调</mark>：取决于光的<mark class="mark-red">波长</mark>。
+
+</span>
+<span class="blue-box">
+
+<mark class="mark-red">明度</mark>：指颜色的明暗程度。颜色的明度取决于<mark class="mark-red">照明的强度和物体表面的反射系数</mark>。光源的照明越大，物体表面的反射率越高,物体看上去就越亮。
+
+</span>
+<span class="blue-box">
+
+<mark class="mark-red">饱和度</mark>：指某种颜色的纯、杂程度或鲜明程序，纯的颜色都是高度饱和的，如 鲜红、鲜绿等。混杂上白色、灰色或其他色调的颜色，是不饱和的颜色，如绛紫、 粉红等。完全不饱和的颜色根本没有色调,如黑白之间的各种灰色。
+
+</span>

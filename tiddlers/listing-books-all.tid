@@ -1,0 +1,19 @@
+caption: 全部
+tags: books-category
+title: listing-books-all
+tmap.id: e127697b-7491-4a98-a979-ea4b2a1b30ad
+type: text/vnd.tiddlywiki
+
+<div class="box-list-tags">
+  <$list filter="[[Book]]">
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+  </$list>
+	<span class="xp-tag-divider"></span>
+  <$list filter="[tag[Book]tags[]remove[Book]remove<books-default-ctags>sort[]]">
+    <$transclude tiddler="$:/xp/ui/TagTemplate/book"/>
+  </$list>
+</div>
+
+<div style="font-size:0.7em;text-align:left;margin-top:2em;margin-bottom:2em;">
+<<list-thumbnails filter:"[tag[Book]!has[draft.of]sort[]]" width:"139" height:"200">>
+</div>

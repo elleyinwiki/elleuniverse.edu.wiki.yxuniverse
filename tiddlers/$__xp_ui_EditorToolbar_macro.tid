@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/macro/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20220413130918787
+creator: edu
+description: {{$:/language/Buttons/macro/Hint}}
+icon: $:/xp/images/macro
+modified: 20220413130918787
+modifier: edu
+shortcuts: ((macro))
+tags: $:/tags/EditorToolbar
+title: $:/xp/ui/EditorToolbar/macro
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="<<"
+	suffix=">>"
+/>

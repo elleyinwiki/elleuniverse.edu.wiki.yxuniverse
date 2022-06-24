@@ -1,0 +1,11 @@
+caption: 分类视图
+title: BOOKSHELF CATEGORY VIEW
+tmap.id: 8d5dcb66-89d7-4ae7-89fa-d153b4c960d9
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="tabs"
+	tabsList="[all[shadows+tiddlers]tag[books-category]!tag[hide]!has[draft.of]]"
+	default="books-category-ongoing"
+	class="tc-vertical"
+	/>

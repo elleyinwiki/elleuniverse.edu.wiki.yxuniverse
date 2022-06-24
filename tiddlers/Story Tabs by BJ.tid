@@ -1,0 +1,15 @@
+caption: Story Tabs
+created: 20211016095547858
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20211026160715653
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Story Tabs by BJ
+tmap.id: 808050d5-8ea3-43d2-a01a-bcae4e43a364
+type: text/vnd.tiddlywiki
+url: http://bjtools.tiddlyspot.com/#%24%3A%2Fplugins%2Fbj%2Fstorytabs
+
+Facilitates easier navigating between open tiddlers. Links to open tiddlers appear above top of the story river.
+
+{{!!url}}
+
+* $:/plugins/bj/storytabs

@@ -1,0 +1,14 @@
+caption: RememberCz
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20200517155905263
+creator: edu
+description: Remember Cloze Deletion
+icon: $:/plugins/sobjornstad/TiddlyRemember/icons/lightbulb-black.svg
+modified: 20220413130918789
+modifier: edu
+shortcuts: ((remembercz))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/sobjornstad/TiddlyRemember/toolbar/remembercz
+type: text/vnd.tiddlywiki
+
+<$macrocall $name=tr-insert-note snippet={{$:/config/TiddlyRemember/snippets/remembercz}}>

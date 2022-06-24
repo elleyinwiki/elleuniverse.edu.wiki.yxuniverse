@@ -1,0 +1,21 @@
+caption: Editor AutoLists
+created: 20210620023325938
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210629081136859
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Editor AutoLists by Saq Imtiaz
+tmap.id: c8219bdb-dd64-410a-ba19-535804646298
+type: text/vnd.tiddlywiki
+url: https://saqimtiaz.github.io/sq-tw/editor-autolists.html#%24%3A%2Fplugins%2Fsq%2Feditor-autolist
+
+{{!!url}}
+
+editor extension to automatically continue lists
+
+* $:/plugins/sq/editor-autolist
+
+<span class="yellow-box">
+
+注意：[[Editor AutoLists|Editor AutoLists by Saq Imtiaz]] 与 [[CodeMirror|CodeMirror Plugin]] 的自动对齐功能相冲突。
+
+</span>

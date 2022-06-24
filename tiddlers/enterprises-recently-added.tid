@@ -1,0 +1,14 @@
+caption: 最近添加
+title: enterprises-recently-added
+tmap.id: 673f3071-6110-4eda-b56e-d97727444df1
+type: text/vnd.tiddlywiki
+
+<div style="margin:15px 0;padding:0 0 0 24px;font-size:1.17em;">
+<ol class="tc-toc">
+  <$list filter="""[all[shadows+tiddlers]tag[Enterprise]!has[draft.of]!sort[created]limit[15]] -[[Enterprise]]""">
+    <li>
+    <$link><$view field='caption'><$view field='title'/></$view></$link>
+    </li>
+  </$list>
+</ol>
+</div>

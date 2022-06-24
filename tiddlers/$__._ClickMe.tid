@@ -1,0 +1,13 @@
+created: 20160422072207305
+creator: Mat
+modified: 20160422074000514
+modifier: Mat
+tags: $:/tags/PageTemplate
+title: $:/./ClickMe
+type: text/vnd.tiddlywiki
+
+<<linkimg "Bigger community ⇄ Better TW" "$:/./img/fish_small" "click me!" clickme 30px>>
+
+<style>
+.clickme {position:fixed; left:5px; bottom:10px; z-index:5000;}
+</style>

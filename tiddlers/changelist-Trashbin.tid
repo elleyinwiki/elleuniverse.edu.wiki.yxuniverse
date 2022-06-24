@@ -1,0 +1,19 @@
+caption: Trashbin
+tags: [[Change List]]
+title: changelist-Trashbin
+tmap.id: 8e1f0178-7d63-44fc-adfb-296b4b2b72c8
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/kookma/trashbin
+
+由于侧边栏固定的项目较多，将文字标题换为图标显示：
+
+* $:/plugins/kookma/trashbin/sidebar-tab
+
+并更改了内容显示效果：
+
+* $:/plugins/kookma/trashbin/ui/sidebar
+
+删除按钮中的 list-after 排序（用 <<tag $:/tags/ViewToolbar>> 中的 list 字段进行排序）：
+
+* $:/plugins/kookma/trashbin/ui/toolbar-button

@@ -1,0 +1,13 @@
+color: #ff4d82
+created: 20220413085324233
+creator: edu
+icon: ♥️
+modified: 20220413085603440
+modifier: edu
+page-cover: 
+tags: TableOfContents
+title: psy
+tmap.id: f79919f9-9aa4-4822-9791-19387f049b0a
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[psy]]" "About XP" "$:/state/tab/beginner" "tc-vertical">>

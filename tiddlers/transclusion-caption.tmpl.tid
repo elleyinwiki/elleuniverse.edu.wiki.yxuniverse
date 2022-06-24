@@ -1,0 +1,9 @@
+title: transclusion-caption.tmpl
+tmap.id: 03023954-bfd4-4aa4-9cbe-a892d0f5160a
+type: text/vnd.tiddlywiki
+
+<h4><$link to=<<currentTiddler>>><$view field="caption"/></$link>：</h4>
+
+<div class="transclusion-text-in-box">
+<$transclude field="text" mode="block"/>
+</div>

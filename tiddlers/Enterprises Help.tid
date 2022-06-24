@@ -1,0 +1,30 @@
+color: #bbb
+icon: $:/core/images/help
+title: Enterprises Help
+tmap.id: f10d4cc6-8d8d-47af-a7ad-f045a32c3092
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+ENTERPRISES 是企业的索引界面。原理和使用方法与 BOOKSHELF 一致，请参阅 [[Bookshelf Help]]。
+
+</span>
+
+! 如何使用？
+
+点击 <span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new enterprise 创建一个企业。<div><span class="gray-box">
+
+字段说明：
+
+* `caption`：显示名称，通常是对 `title` 的简化或者别称。
+* `image`：封面图，不支持 SVG。为了便于管理，添加标签 <<tag EnterpriseCover>>。建议图片标题中使用小写和下划线。
+* `link`：填入 `title` 字段值。使得点击封面图时打开该条目。
+* `country`：公司属于哪个国家。
+* `fdate`：（Founding Date）公司成立日期。（一般指企业被批准成立，发给营业执照的日期。）
+
+</span> 
+</div>
+
+其他说明：
+
+* 企业分类参考「[[目前的企业类型有哪些|https://www.66law.cn/laws/611214.aspx]]」。

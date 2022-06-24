@@ -1,0 +1,7 @@
+title: people-table-view
+tmap.id: 6162a64d-112b-4edb-a1e8-1f50abb9391d
+type: text/vnd.tiddlywiki
+
+Filter and search in table <$edit-text tiddler="$:/temp/people/dtable/search" filed=text tag=input default=""/>
+
+<$macrocall $name=table-dynamic filter="[tag[PEOPLE]search{$:/temp/people/dtable/search}]" fields="tbl-expand title description education lifetime tags" class="w-100" stateTiddler="people"/>

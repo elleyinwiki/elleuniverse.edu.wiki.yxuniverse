@@ -1,0 +1,23 @@
+created: 20190210103803840
+creator: Mohammad
+modified: 20190210105748881
+modifier: Mohammad
+tags: 
+title: Use Case
+tmap.id: b83f2ffd-2102-4944-a152-c7e26cc04e33
+type: text/vnd.tiddlywiki
+
+Tiddlywiki "semantic colors" has two objectives:
+
+# How it is simply possible to apply theme to an individual tiddler
+# Use semantic colors for categorization
+
+!!! Use-cases
+* Learning materials (each topic, category can have dedicated semantic color, like learning a foreign language)
+* Slideshow (section divider, each part can have a semantic color)
+* Books and tutorials ( different semantic colors can be applied to chapters, specific subjects, like example tiddlers)
+* Visual tags (instead of looking for tag bar and see to what category this subject (tiddler) belongs, you can identify it by its semantic color)
+
+
+It is possible to define different categories like (elementary, intermediate, advanced) and customize the classes for that purpose. For example all tiddlers tagged with //elementary// refer to subject of Elementary level.
+

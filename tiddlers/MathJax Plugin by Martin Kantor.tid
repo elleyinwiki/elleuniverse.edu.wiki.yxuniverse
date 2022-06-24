@@ -1,0 +1,17 @@
+caption: MathJax
+created: 20210619131344975
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210620042031804
+tags: [[Community Plugins]] [[Plugin Card]]
+title: MathJax Plugin by Martin Kantor
+tmap.id: a764f633-404a-4f6a-aac5-730365c591ef
+type: text/vnd.tiddlywiki
+url: http://mathjax-tw5.kantorsite.net
+
+An experimental MathJax plugin for TiddlyWiki version 5. As Martin says, the implementation is a bit of a hack but may be useful until we have a better alternative.
+
+{{!!url}}
+
+<<<
+Welcome. I have created plugin for TiddlyWiki 5 which allows you to use MathJax (math in TeX and MathML) inside TiddlyWiki 5. It's unofficial plugin and it doesn't follow general policy of TiddlyWiki as stand-alone solution but it works. So you can use it if you want.
+<<<

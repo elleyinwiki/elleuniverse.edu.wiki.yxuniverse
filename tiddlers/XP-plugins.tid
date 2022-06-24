@@ -1,0 +1,6 @@
+color: #e8cdfe
+title: XP-plugins
+tmap.id: 697ea686-2d61-42a7-88cb-f99b5a2125fd
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[all[shadows+tiddlers]tag[XP-plugins]]">>

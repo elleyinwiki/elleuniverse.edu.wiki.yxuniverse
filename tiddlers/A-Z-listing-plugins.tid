@@ -1,0 +1,12 @@
+caption: List View
+title: A-Z-listing-plugins
+tmap.id: 425d45f9-6ce2-4de7-8468-c4d24c5e7333
+type: text/vnd.tiddlywiki
+
+{{$:/language/clickpopup}}
+
+<div class="twocolumns" style="padding:10px 28px;line-height:1.55;">
+
+{{{ [all[shadows+tiddlers]tag[Plugin Card]!has[draft.of]sort[]] ||popup-caption.tmpl}}}
+
+</div>

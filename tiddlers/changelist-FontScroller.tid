@@ -1,0 +1,20 @@
+caption: Font Scroller
+tags: [[Change List]]
+title: changelist-FontScroller
+tmap.id: 8d37ed48-6599-430e-b25c-06b8d556a78a
+type: text/vnd.tiddlywiki
+
+!! $:/jd/Buttons/font-size
+
+将按钮打包到 $:/xp/quickbar 里面：
+
+* $:/xp/quickbar/Buttons/big-font
+* $:/xp/quickbar/images/minus
+* $:/xp/quickbar/images/plus
+
+修改内容为：
+
+* 按钮上显示字体大小
+* 最小字体设置为 13px
+* 为提高中文阅读体验，调整行高 bodylineheight > 1.46
+* 适配 Stories 插件

@@ -1,0 +1,11 @@
+caption: 荧光笔
+created: 20220418024530802
+creator: edu
+modified: 20220418024604979
+modifier: edu
+tags: $:/tags/TextEditor/Snippet
+title: highlight
+tmap.id: 689d77a0-63d5-4d7a-aaf9-fa7f605196bf
+type: text/vnd.tiddlywiki
+
+<mark class="mark-red"></mark>

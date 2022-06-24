@@ -1,0 +1,13 @@
+caption: EditorMagic
+created: 20210620040024265
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210621030409305
+tags: [[Community Plugins]] [[Plugin Card]]
+title: EditorMagic by Mat von TWaddle
+tmap.id: ef218665-0a52-4575-b3b9-5bee1526dfc7
+type: text/vnd.tiddlywiki
+url: http://editormagic.tiddlyspot.com/
+
+{{!!url}}
+
+This is a proof of concept for autocomplete when using the editor. Clever stuff.

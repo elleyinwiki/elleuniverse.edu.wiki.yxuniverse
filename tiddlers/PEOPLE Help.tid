@@ -1,0 +1,37 @@
+color: #bbb
+icon: $:/core/images/help
+title: PEOPLE Help
+tmap.id: 2151526a-0751-4be9-82cc-e1c9749cebc2
+type: text/vnd.tiddlywiki
+
+<span class="blue-box">
+
+PEOPLE - 读万卷书不如行万里路，行万里路不如阅人无数……
+
+</span>
+
+! 如何使用？
+
+!!! 点击 <span class="tc-btn-icon">{{$:/core/images/new-button}}</span> new people 创建一个人物
+
+* 要呈现「分类」和「表格」两种视图，推荐条目包含以下字段：<div><span class="gray-box">
+
+* `caption`：显示名称，通常是对 `title` 的简化。
+* `description`: 一句话描述人物。
+* `color`: 标记卡片颜色。（分类视图）
+* `education`: 人物的最高学历。（表格视图）
+* `lifetime`: 人物寿命。（表格视图）
+
+</span></div>
+
+* 「[[分类视图|people-category-view]]」通过标签进行过滤，所以创建条目时要打上对应的标签。<div><span class="gray-box">
+
+默认含有三个类别：职业（PROFESSION）、国籍（NATIONALITY）、功过格（正面还是反面人物）。
+
+分类标签以 [[Title List|https://tiddlywiki.com/static/Title%2520List.html]] 的形式分别存储于：
+
+* $:/config/PEOPLE/profession
+* $:/config/PEOPLE/nationality
+* [[$:/config/PEOPLE/merits&faults]]
+
+</span></div>

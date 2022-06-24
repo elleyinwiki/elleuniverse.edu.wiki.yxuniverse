@@ -1,0 +1,25 @@
+caption: {{$:/core/images/new-button}}
+tags: books-category
+title: books-newcategory
+tmap.id: 515b89cb-1615-466c-8114-c8325a3192c2
+type: text/vnd.tiddlywiki
+
+! 新建分类
+
+|<$link to="$:/config/new-bookcategory/Title">Title</$link> |<$edit-text tiddler="$:/config/new-bookcategory/Title" default="" tag="input"/> |
+|<$link to="$:/config/new-bookcategory/Caption">Caption</$link> |<$edit-text tiddler="$:/config/new-bookcategory/Caption" default="" tag="input"/> |
+|<$link to="$:/config/new-bookcategory/Text">Text</$link> |<$edit tiddler="$:/config/new-bookcategory/Text" tag="textarea" class="tc-edit-texteditor" default=""/> |
+|>| {{$:/xp/ui/Buttons/listing-books/newcategory}} |
+
+<small>
+<i class="tc-muted">
+
+操作说明：
+
+# 设置标题后缀
+# 设置显示名称
+# 修改内容中 `CTag` 为标记该分类的标签
+# 点击按钮新建
+
+</i>
+</small>

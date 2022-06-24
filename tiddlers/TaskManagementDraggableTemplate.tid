@@ -1,0 +1,5 @@
+title: TaskManagementDraggableTemplate
+tmap.id: bbeda5fc-b1e1-4117-8192-8d5d442e3944
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="done"> <$link/></$checkbox>

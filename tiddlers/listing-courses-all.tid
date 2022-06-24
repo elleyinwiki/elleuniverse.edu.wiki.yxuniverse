@@ -1,0 +1,19 @@
+caption: 全部
+tags: courses-category
+title: listing-courses-all
+tmap.id: 6c445772-a830-4dfc-9e35-018127bb92c5
+type: text/vnd.tiddlywiki
+
+<div class="box-list-tags">
+  <$list filter="[[Course]]">
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+  </$list>
+	<span class="xp-tag-divider"></span>
+  <$list filter="[tag[Course]tags[]remove[Course]remove<courses-default-ctags>sort[]]">
+    <$transclude tiddler="$:/xp/ui/TagTemplate/course"/>
+  </$list>
+</div>
+
+<div style="font-size:0.7em;text-align:left;margin-top:2em;margin-bottom:2em;">
+<<list-thumbnails filter:"[tag[Course]!has[draft.of]sort[]]" width:"220" height:"123">>
+</div>

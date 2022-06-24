@@ -1,0 +1,10 @@
+caption: 进度列表
+title: BOOKSHELF TIDGRAPH VIEW
+tmap.id: a1338aa1-6e64-4570-8a0d-fa6ee74a634e
+type: text/vnd.tiddlywiki
+
+<$tidgraph filter="[tag[Book]!has[draft.of]sort[]]" start="Planning" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Book]!has[draft.of]sort[]]" start="Ongoing" nodetemplate="IconTemplate" maxdepth="1"/>
+
+<$tidgraph filter="[tag[Book]!has[draft.of]sort[]]" start="Completed" nodetemplate="IconTemplate" maxdepth="1"/>

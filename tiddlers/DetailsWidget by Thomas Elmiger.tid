@@ -1,0 +1,16 @@
+caption: Details
+created: 20210619135609744
+modified: 20210620041638223
+tags: [[Community Plugins]] [[Plugin Card]]
+title: DetailsWidget by Thomas Elmiger
+tmap.id: 5a878b4b-8897-48d3-a1f2-85f19f8cf41f
+type: text/vnd.tiddlywiki
+url: https://tid.li/tw5/plugins.html
+
+Disclosure HTML element
+
+{{!!url}}
+
+Create HTML 5 `<details>` elements including a `<summary>` using this widget.
+
+* $:/plugins/telmiger/details

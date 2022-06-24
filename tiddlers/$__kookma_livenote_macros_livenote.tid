@@ -1,0 +1,15 @@
+created: 20191026204316684
+creator: Mohammad
+modified: 20191027054353822
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/kookma/livenote/macros/livenote
+type: text/vnd.tiddlywiki
+
+\define livenote(tidName)
+<div class="paper">
+<div class="paper-content">
+<$edit-text tiddler="$:/livenote/data/$tidName$" field="text" placeholder="Start writting ..." default="" class="note"/>
+</div>
+</div>
+\end

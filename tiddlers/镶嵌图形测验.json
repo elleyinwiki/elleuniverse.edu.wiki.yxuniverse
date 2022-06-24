@@ -1,0 +1,22 @@
+[
+    {
+        "created": "20220624073921975",
+        "creator": "edu",
+        "text": "这是一种纸笔测验，要求被试在一个较大的复杂图形或场中:找出一个隐藏的简单图形。",
+        "tags": "场独立性和场依存性的测验 ?",
+        "title": "镶嵌图形测验",
+        "type": "text/vnd.tiddlywiki",
+        "modified": "20220624073921976",
+        "modifier": "edu",
+        "caption": "{{||Excerpt}}",
+        "priority": "0",
+        "interval": "2",
+        "due": "20220626073921975",
+        "review": "20220407082053501",
+        "annotate-text": "这是一种纸笔测验，要求被试在一个较大的复杂图形或场中:找出一个隐藏的简单图形。",
+        "annotate-prefix": "一个可以调节倾斜度的亮框，框中心装有一个能够转动度数的亮棒，要求被试把亮棒调到垂直。\n镶嵌图形测验：",
+        "annotate-suffix": "\n            ",
+        "annotate-colour": "mark-red",
+        "tmap.id": "78d7a3cc-85e3-4fb8-9590-4bdfdd03c186"
+    }
+]

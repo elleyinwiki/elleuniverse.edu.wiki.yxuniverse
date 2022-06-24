@@ -1,0 +1,25 @@
+created: 20191026204728043
+creator: Mohammad
+modified: 20191027054152331
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/kookma/livenote/macros/newTitle
+type: text/vnd.tiddlywiki
+
+\define newTitle() <<now YYYY.0MM.0DD>>-{{{[[0]add[$(inc)$]addprefix[0000]split[]last[3]join[]]}}} 
+
+\define newTiddler(n:0)
+<$set name="inc" value={{{ [<__n__>add[1]] }}}>
+<$wikify name="myTitle" text="<<newTitle>>" >
+<$list filter="[<myTitle>] +[!has[title]]" 
+emptyMessage=""" <$macrocall $name="newTiddler" n=<<inc>> /> """>
+<$action-createtiddler 
+$basetitle=<<myTitle>> 
+$savetitle="$:/temp/livenote/title"
+tags="livenote" 
+/>
+</$list>
+<$action-navigate $to={{$:/temp/livenote/title}} />
+</$wikify>
+</$set>
+\end

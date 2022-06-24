@@ -1,0 +1,8 @@
+caption: 已完成
+ctag: Completed
+tags: books-category
+title: books-category-completed
+tmap.id: e86b61b2-481c-4ebf-9f06-88e1a223a678
+type: text/vnd.tiddlywiki
+
+<<list-books "Completed">>

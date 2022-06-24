@@ -1,0 +1,38 @@
+caption: {{$:/core/images/options-button}}
+tags: whys-category
+title: whys-category-managetabs
+tmap.id: 5ef6caf2-94df-41f3-866a-27284c225b21
+type: text/vnd.tiddlywiki
+
+! 隐藏分类
+
+Drag and drop to change the ordering
+
+<div style="padding:0 16px;line-height:27px;">
+<span class="tc-muted">''Caption'' -- //CTag//</span>
+<$vars aggregationTag="whys-category">
+<$macrocall
+	$name="list-tagged-draggable"
+	tag=<<aggregationTag>>
+	subFilter="!tag[hide]remove[whys-category-managetabs listing-whys-all whys-newcategory]"
+	itemTemplate="aggregation-categories-item.tmpl"
+	/>
+<span class="tc-muted">
+<$list filter="[all[shadows+tiddlers]tag<aggregationTag>tag[hide]!has[draft.of]]">
+<div>
+<$checkbox tiddler=<<currentTiddler>> tag="hide"/> ~~<span class="tc-icon-wrapper"> <$transclude field="caption"/> <span class="tc-muted">-- <$link to={{!!ctag}}><$view field="ctag"/></$link></span></span>~~
+</div>
+</$list>
+</span>
+</$vars>
+</div>
+
+
+! 激活分类标签
+
+<span class="tc-muted">点击下方按钮激活 WHYs 默认分类标签，以便选择输入或者搜索输入：</span>
+
+<$button> Show default category tags
+<$action-setfield $tiddler="Show whys default category tags" tags=<<whys-default-ctags>> />
+<$action-navigate $to="Show whys default category tags"/>
+</$button>

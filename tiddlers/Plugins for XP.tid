@@ -1,0 +1,32 @@
+caption: Plugins for XP
+linkstyle: color:#4ac3bf;
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Plugins for XP
+tmap.id: 7ea2d075-2104-473a-a010-a99fac0c039c
+type: text/vnd.tiddlywiki
+
+~TiddlyWiki XP 相关插件。
+
+@@.list-tree
+* $:/xp（主要文件）
+** $:/themes/xp-j
+** $:/themes/xp-k（主题）
+** $:/xp/buttonOrder / $:/xp/buttonOrder-server（按钮显示顺序）
+** $:/xp/modify-default-tiddlers
+** $:/xp/Plugins（插件列表）
+** $:/xp/PluginConfiguration（插件的配置文件）
+@@
+
+|$:/xp/columns          |「编辑器工具栏」按钮，用于将内容分栏显示。 |
+|$:/xp/details-button   |「编辑器工具栏」按钮，用于输入 [[DetailsWidget|$:/plugins/telmiger/details]] 的代码。 |
+|$:/xp/Diary            |在侧边栏显示一个日记列表。 |
+|$:/xp/emoji-button     |「编辑器工具栏」按钮，可以从下拉菜单中复制 Emoji。 |
+|$:/xp/html-button     |「编辑器工具栏」按钮，用于输入 HTML 代码。 |
+|$:/xp/LeftOpenTab      |「页面工具栏」按钮，将开启列表移至左边。 |
+|$:/xp/manageTags       |「页面工具栏」按钮，在浏览模式直接添加或删除条目的标签。 |
+|$:/xp/magicSidebar     |当侧边栏处于隐藏状态时，将鼠标指针划到右侧热点区显示侧边栏。 |
+|$:/xp/mark-button      |「编辑器工具栏」按钮，用于格式化文本的颜色或背景。即：标记文本 / 高亮文本。 |
+|$:/xp/quickbar         |一个常驻底部的快捷工具栏。 |
+|$:/xp/SplashScreen     |选择一个喜欢的启动画面，或者自行添加。 |
+|$:/xp/switchlayout     |「页面工具栏」按钮，在「固定故事」和「固定侧边栏」之间快速切换。 |
+|$:/xp/theme-changer    |「页面工具栏」按钮，快速切换主题。 |

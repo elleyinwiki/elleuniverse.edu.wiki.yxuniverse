@@ -1,0 +1,11 @@
+created: 20170117083345832
+modified: 20170117083538120
+tags: $:/tags/Stylesheet
+title: $:/tesseract/stylesheets/marker
+type: text/vnd.tiddlywiki
+
+mark.roundedmark {
+	background: bisque;
+	padding: 0 8px;
+	border-radius: 1em;
+}

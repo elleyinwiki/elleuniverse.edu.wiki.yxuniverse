@@ -1,0 +1,17 @@
+title: people-recently-added
+tmap.id: eb152983-fd11-44f6-bbf9-461d3c3cc108
+type: text/vnd.tiddlywiki
+
+\define people-recent()
+<div style="margin:15px 0;padding:0 0 0 24px;font-size:1.17em;">
+<ol class="tc-toc">
+  <$list filter="""[all[shadows+tiddlers]tag[PEOPLE]!has[draft.of]!sort[created]limit[15]] -[[PEOPLE]]""">
+    <li>
+    <$link><$view field='caption'><$view field='title'/></$view></$link>
+    </li>
+  </$list>
+</ol>
+</div>
+\end
+
+<<people-recent>>

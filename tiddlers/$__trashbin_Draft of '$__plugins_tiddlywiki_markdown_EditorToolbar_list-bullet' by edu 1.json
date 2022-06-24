@@ -1,0 +1,17 @@
+{
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"prefix-lines\"\n\tcharacter=\"*\"\n\tcount=\"1\"\n/>\n",
+    "created": "20220418015622672",
+    "creator": "edu",
+    "title": "Draft of '$:/plugins/tiddlywiki/markdown/EditorToolbar/list-bullet' by edu",
+    "list-after": "$:/core/ui/EditorToolbar/list-bullet",
+    "tags": "$:/tags/EditorToolbar",
+    "icon": "$:/core/images/list-bullet",
+    "caption": "{{$:/language/Buttons/ListBullet/Caption}} (Markdown)",
+    "description": "{{$:/language/Buttons/ListBullet/Hint}}",
+    "condition": "[<targetTiddler>type[text/x-markdown]]",
+    "shortcuts": "((list-bullet))",
+    "modified": "20220418015652226",
+    "modifier": "edu",
+    "draft.title": "$:/plugins/tiddlywiki/markdown/EditorToolbar/list-bullet",
+    "draft.of": "$:/plugins/tiddlywiki/markdown/EditorToolbar/list-bullet"
+}

@@ -1,0 +1,11 @@
+created: 20191026205653440
+creator: Mohammad
+modified: 20191027062802589
+modifier: Mohammad
+tags: $:/tags/PageControls
+title: $:/kookma/livenote/button/create-new-note
+type: text/vnd.tiddlywiki
+
+<$button actions=<<newTiddler>> class=<<tv-config-toolbar-class>> tooltip="create new livenote">
+{{$:/core/images/new-journal-button}}
+</$button>

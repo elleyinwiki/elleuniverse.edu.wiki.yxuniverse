@@ -1,0 +1,25 @@
+caption: Favorites
+created: 20210619120919589
+modified: 20210620041830325
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Favorites by Mohammad
+tmap.id: d5f1837a-98b5-4517-9ad7-8188cd27f17d
+type: text/vnd.tiddlywiki
+url: https://kookma.github.io/TW-Favorites/
+
+Favorites plugin is a set of tool for creating favorites (bookmarks) in Tiddlywiki. Each favorite item is a shortcut to a tiddler.
+
+{{!!url}}
+
+A favorite item also called a bookmark is a shortcut, you are creating for quick access to it. You can access that bookmark at any time and view that as many times as you want without having to search and find it again.
+
+The Favorites plugin contains three modes
+
+* flat mode: one favorite list, no folder
+* structured mode: use folder, search tool, export and delete tool
+* frozen list: read only, simple table of content style
+
+
+<div />
+
+* $:/plugins/kookma/favorites

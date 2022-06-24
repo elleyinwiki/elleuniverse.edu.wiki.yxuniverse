@@ -1,0 +1,6 @@
+color: #cce4b8
+title: XP-settings
+tmap.id: f6bf3d9f-5e71-4f1e-8a74-e467b66aead2
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[all[shadows+tiddlers]tag[XP-settings]]">>

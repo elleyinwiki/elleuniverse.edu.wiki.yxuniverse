@@ -1,0 +1,6 @@
+color: #add8e6
+title: task
+tmap.id: b1062f65-04c1-4e0d-8b36-dad9c83ef3cc
+type: text/vnd.tiddlywiki
+
+<<list-links filter:"[tag[task]]">>

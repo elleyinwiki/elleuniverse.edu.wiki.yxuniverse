@@ -1,0 +1,11 @@
+caption: Shiraz
+tags: [[Change List]]
+title: changelist-Shiraz
+tmap.id: 1a73a54c-8e6a-4e0e-91b6-9a553377d7ab
+type: text/vnd.tiddlywiki
+
+!! $:/plugins/kookma/shiraz
+
+取消 colorful-sidebar-tab 样式：
+
+* $:/plugins/kookma/shiraz/styles/colorful-sidebar-tab

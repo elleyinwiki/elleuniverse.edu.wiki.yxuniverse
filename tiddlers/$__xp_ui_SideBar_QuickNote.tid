@@ -1,0 +1,22 @@
+caption: Note
+created: 20220413052938984
+creator: edu
+modified: 20220413052938984
+modifier: edu
+tags: 
+title: $:/xp/ui/SideBar/QuickNote
+type: text/vnd.tiddlywiki
+
+<$edit
+	tiddler="$:/config/quicknote/Text"
+	class="quicknote-edit"
+	/>
+
+<!-- No line numbers:
+<$edit-text
+	tiddler="$:/config/quicknote/Text"
+	tag="textarea"
+	rows="25"
+	class="quicknote-edit-texteditor"
+	/>
+-->

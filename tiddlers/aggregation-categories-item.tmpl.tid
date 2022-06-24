@@ -1,0 +1,7 @@
+title: aggregation-categories-item.tmpl
+tmap.id: 219eafea-bfb6-41d1-8bbd-4db7de308ddc
+type: text/vnd.tiddlywiki
+
+<$draggable tiddler=<<currentTiddler>>>
+<$checkbox tiddler=<<currentTiddler>> tag="hide"/> <span class="tc-icon-wrapper"> <$transclude field="caption"/> <span class="tc-muted">-- <$link to={{!!ctag}}><$view field="ctag"/></$link></span></span>
+</$draggable>

@@ -1,0 +1,32 @@
+caption: Edit-CompText
+created: 20210620020222395
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210621030314598
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Edit-CompText by AlainD
+tmap.id: 6482d89a-bf69-4191-8084-aa1db317a31a
+type: text/vnd.tiddlywiki
+url: http://snowgoon88.github.io/TW5-extendedit
+
+{{!!url}}
+
+This plugin adds ''completion'' when editing the body of a tiddler.
+
+* Enter completion-mode by typing `[[` or `CTRL+SPACE`
+* A list of tiddlers with a title that matches the pattern between `[[` and cursor appears
+* `UP/DOWN` keys can select a tiddler, `ENTER` to validate
+* `NEW` : can click with mouse or touch surface to select your completion.
+* If there is only one match, `ENTER` selects it.
+* you can specify you own trigger pattern and the list of possible completions. See [[$:/plugins/snowgoon88/edit-comptext/usage]] for more details.
+* `NEW` : after completion, the cursor can be set inside the inserted text. This allows for easier creation of "aliased links" (try completion with `||` for example).
+* `NEW` : version 0.9.1 and higher, the default TW5 editor automatically has autocompletion as soon as the plugin is enabled (if TW5 version 5.1.22 or higher)
+
+
+<span class="yellow-box">
+
+与 ~CodeMirror 互斥，不推荐安装。请用默认快捷键 <kbd>ctrl-L</kbd> 创建维基文字链接
+
+</span>
+
+
+* $:/plugins/snowgoon88/edit-comptext

@@ -1,0 +1,22 @@
+caption: {{$:/language/Buttons/Quote/Caption}}
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20220418032632660
+creator: edu
+description: {{$:/language/Buttons/Quote/Hint}}
+icon: $:/core/images/quote
+modified: 20220418033930251
+modifier: edu
+shortcuts: ((quote))
+tags: $:/tags/EditorToolbar
+title: $:/core/ui/EditorToolbar/quote
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="<br>"
+	suffix=""
+/>
+
+
+

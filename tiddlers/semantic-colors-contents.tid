@@ -1,0 +1,39 @@
+caption: SC Tiddlers
+created: 20190209202027261
+creator: Mohammad
+list-after: table of contents
+modified: 20190210093955744
+modifier: Mohammad
+tags: $:/tags/SideBar
+title: semantic-colors-contents
+tmap.id: 9c328bdf-78d0-4377-8437-f200a6230797
+type: text/vnd.tiddlywiki
+
+\define olist(filter,prefix:"",class:"",subtype:"li",emptyMessage:"No tiddler found")
+  <ol class="$class$" style="padding-bottom:10px;">
+    <$list filter="$filter$" emptyMessage=<<__emptyMessage__>>>
+    <$set name="myTitle" value={{!!title}}>
+    <$subtype$>
+      <$link to=<<myTitle>> >
+        <$transclude field="caption">
+          <$text text={{{ [<myTitle>removeprefix[$prefix$]] }}}/>
+        </$transclude>
+      </$link>
+    </$subtype$>
+    </$set>
+    </$list>
+  </ol>
+\end
+
+<!-- olist is a customized list-links to let remove prefix from title -->
+
+!! Demos
+<<olist "[all[shadows+tiddlers]tag[demo]]" class:"alert-warning">>
+
+!! Macros
+<<olist "[tag[sc]tag[$:/tags/Macro]sort[title]]" type:"ol" class:"alert-danger" prefix:"">>
+
+!! Stylesheets
+<<olist "[search:title[stylesheet/semantic]sort[title]]" type:"ol" class:"alert-primary" prefix:"stylesheet/semantic/">>
+
+<<vspace 2cm>>

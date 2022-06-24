@@ -1,0 +1,15 @@
+caption: ListTree
+created: 20210620032521052
+modified: 20210620042020036
+tags: [[Community Plugins]] [[Plugin Card]]
+title: ListTree by Mat von TWaddle
+tmap.id: d0a25dbc-d5dd-439c-a7e4-e26b8e4b6902
+type: text/vnd.tiddlywiki
+url: http://listtree.tiddlyspot.com/
+
+[[ListTree|$:/plugins/TWaddle/ListTree]] is a stylesheet plugin to reshape common TW ''asterisk/bullet lists'' into list trees. You just apply a style to the bullet list.
+
+@@.list-tree
+* {{!!url}}
+* $:/plugins/TWaddle/ListTree
+@@

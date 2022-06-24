@@ -1,0 +1,8 @@
+caption: 食物
+ctag: Food
+tags: whys-category
+title: whys-category-food
+tmap.id: 402b4220-2ff4-4468-98f3-8c3be928b20d
+type: text/vnd.tiddlywiki
+
+<<list-whys "Food">>

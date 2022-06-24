@@ -1,0 +1,19 @@
+caption: Todolist
+created: 20210619133117034
+modified: 20210620042431674
+tags: [[Community Plugins]] [[Plugin Card]]
+title: Todolist by Mohammad
+tmap.id: 3a6e5b36-d52a-43a2-a24e-ea1648da3f06
+type: text/vnd.tiddlywiki
+url: https://kookma.github.io/TW-Todolist/
+
+Todolist is a small pure wikitext plugin, contain all  tools to work with todo list. 
+
+{{!!url}}
+
+With Todolist, easily organize and prioritize your tasks and projects so you’ll always know exactly what to work on next.
+
+Todolist creates custom UI and lets you to add new items, set priority, done/undone items,  archive, delete. Using Todolist plugin it is possible to create several todo lists in one Tiddlywiki.
+
+
+* $:/plugins/kookma/todolist

@@ -1,0 +1,19 @@
+{
+    "text": "<$action-sendmessage\n\t$message=\"tm-edit-text-operation\"\n\t$param=\"wrap-selection\"\n\tprefix=\"**\"\n\tsuffix=\"**\"\n/>\n",
+    "created": "20220413130918787",
+    "creator": "edu",
+    "title": "Draft of '$:/plugins/tiddlywiki/markdown/EditorToolbar/bold' by edu",
+    "modified": "20220418023820207",
+    "modifier": "edu",
+    "tags": "",
+    "type": "text/vnd.tiddlywiki",
+    "bag": "default",
+    "caption": "{{$:/language/Buttons/Bold/Caption}} (Markdown)",
+    "condition": "[<targetTiddler>type[text/x-markdown]]",
+    "description": "{{$:/language/Buttons/Bold/Hint}}",
+    "icon": "$:/core/images/bold",
+    "shortcuts": "((bold))",
+    "revision": "1",
+    "draft.title": "$:/plugins/tiddlywiki/markdown/EditorToolbar/bold",
+    "draft.of": "$:/plugins/tiddlywiki/markdown/EditorToolbar/bold"
+}

@@ -1,0 +1,32 @@
+caption: Other Instructions
+title: other-instructions
+tmap.id: 0510942e-04cf-41e9-9c9c-40c00594bc36
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/ControlPanel/
+
+!! XP 系插件
+
+* 版本号跟随当前的 TiddlyWiki 版本，最后一位为更新次数。参见 [[插件维护列表]]。
+* 插件间可能有联动，有资源共享。比如，一个插件使用另一个插件中的图片。所以一个插件脱离 XP 后，可能出现异常。
+
+
+!! 模板条目
+
+统一命名格式：`用途（-备注）.tmpl`，全部小写。比如：`popup.tmpl`
+
+当前模板条目有：
+
+<$list filter="[all[tiddlers+shadows]suffix[.tmpl]sort[title]limit[1]]">
+  <$macrocall $name="tabs" tabsList="[all[tiddlers+shadows]suffix[.tmpl]sort[]]" default={{!!title}} class="tc-vertical"/>
+</$list>
+
+
+!! 搁置条目
+
+弃置不用的条目。原本是要删除的，但是保险起见，先备份起来。
+
+toc buttons:
+
+* $:/_xp/Stylesheet/toc-buttons
+* $:/xp/ui/SideBarSegments/toc-buttons

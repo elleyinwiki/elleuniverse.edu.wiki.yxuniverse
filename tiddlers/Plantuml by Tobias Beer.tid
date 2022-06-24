@@ -1,0 +1,15 @@
+caption: Plantuml
+created: 20210630014209266
+linkstyle: color:<<colour muted-foreground>>;
+modified: 20210630014609533
+tags: [[Community Plugins]] [[Plugin Card]] Charts Diagrams
+title: Plantuml by Tobias Beer
+tmap.id: b1e578d8-f914-4b49-8271-687077639d76
+type: text/vnd.tiddlywiki
+url: https://tobibeer.github.io/tw5-plugins/#plantuml
+
+{{!!url}}
+
+Render plantuml diagrams online as image or text
+
+* $:/plugins/tobibeer/plantuml
