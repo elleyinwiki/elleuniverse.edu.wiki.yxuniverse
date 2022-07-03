@@ -6,15 +6,18 @@ grade: 1
 history: [{"due":"20220506080328405","interval":"9","difficulty":4.822431111850943,"stability":17.93125127850223,"retrievability":0.6224311118509421,"grade":"1","lapses":0,"reps":2,"review":"20220418080328405"}]
 interval: 9
 lapses: 0
-modified: 20220418080328405
+modified: 20220703035726859
 modifier: edu
 reps: 2
 retrievability: 0.6224311118509421
 review: 20220418080328405
 stability: 17.93125127850223
-tags: 视觉 anki ?
+stream-list: 视觉-现象/20220703035414110
+stream-type: default
 title: 视觉-现象
 tmap.id: c0074e7d-d12a-45bd-a0d1-b34de4330d4c
 type: text/vnd.tiddlywiki
 
 <<tabs "[tag[视觉-现象]]" "About XP" "$:/state/tab/beginner" "tc-horizontal">>
+<<tabs "tabsList" "[tag[视觉-现象]]" "$:/state/tab5">>
+

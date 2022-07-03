@@ -6,13 +6,13 @@ grade: 0
 history: [{"due":"20220428120915715","interval":"3","difficulty":5.0538149682454625,"stability":7.290234566162131,"retrievability":0.8538149682454624,"grade":"1","lapses":0,"reps":2,"review":"20220421120915715"},{"due":"20220428120915715","interval":3,"difficulty":5.0538149682454625,"stability":7.290234566162131,"retrievability":0.8538149682454624,"grade":1,"lapses":0,"reps":2,"review":"20220421120915715"}]
 interval: 64
 lapses: 1
-modified: 20220624123656939
+modified: 20220703035155824
 modifier: edu
 reps: 1
 retrievability: 0.3965528486102322
 review: 20220624123656939
 stability: 1.4816364413634358
-tags: anki ?
+tags: anki
 title: 弗洛伊德-人格理论
 tmap.id: 6326f1bb-f354-48ae-ba1c-fb2e477232e4
 type: text/vnd.tiddlywiki
