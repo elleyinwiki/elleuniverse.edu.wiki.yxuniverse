@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/ListNumber/Caption}} (Markdown)
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20220413130918788
+creator: edu
+description: {{$:/language/Buttons/ListNumber/Hint}}
+icon: $:/core/images/list-number
+modified: 20230410085051580
+modifier: edu
+shortcuts: ((list-number))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tiddlywiki/markdown/EditorToolbar/list-number
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character="1."
+	count="1"
+/>

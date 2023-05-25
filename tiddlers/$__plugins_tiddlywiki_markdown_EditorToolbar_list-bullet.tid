@@ -1,11 +1,11 @@
 caption: {{$:/language/Buttons/ListBullet/Caption}} (Markdown)
 condition: [<targetTiddler>type[text/x-markdown]]
-created: 20220418023417859
+created: 20220418022923069
 creator: edu
 description: {{$:/language/Buttons/ListBullet/Hint}}
 icon: $:/core/images/list-bullet
 list-after: $:/core/ui/EditorToolbar/list-bullet
-modified: 20220418023432645
+modified: 20230410085053656
 modifier: edu
 shortcuts: ((list-bullet))
 tags: 

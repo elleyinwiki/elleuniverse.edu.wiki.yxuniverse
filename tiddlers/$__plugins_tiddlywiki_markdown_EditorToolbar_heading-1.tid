@@ -1,14 +1,14 @@
 caption: {{$:/language/Buttons/Heading1/Caption}} (Markdown)
 condition: [<targetTiddler>type[text/x-markdown]]
-created: 20220418023056315
+created: 20220418022958832
 creator: edu
 description: {{$:/language/Buttons/Heading1/Hint}}
 icon: $:/core/images/heading-1
 list-after: $:/core/ui/EditorToolbar/heading-1
-modified: 20220418023321729
+modified: 20230410085053824
 modifier: edu
 shortcuts: ((heading-1))
-tags: 
+tags: $:/tags/EditorToolbar
 title: $:/plugins/tiddlywiki/markdown/EditorToolbar/heading-1
 type: text/vnd.tiddlywiki
 

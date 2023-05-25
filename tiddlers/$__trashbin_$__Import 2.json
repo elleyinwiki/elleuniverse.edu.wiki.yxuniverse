@@ -1,7 +1,0 @@
-{
-    "title": "$:/Import",
-    "type": "application/json",
-    "plugin-type": "import",
-    "status": "pending",
-    "text": "{\n    \"tiddlers\": {\n        \"Untitled 1\": {\n            \"title\": \"Untitled 1\",\n            \"text\": \"https://thesherwood.github.io/Mentat/#%24%3A%2Fplugins%2Fadmls%2Fmentat\"\n        }\n    }\n}"
-}
